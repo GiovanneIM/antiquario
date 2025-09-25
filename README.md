@@ -9,3 +9,16 @@
   <li>Gabriel Marques</li>
   <li>Giovanne Isaac Marques</li>
 </ul>
+
+
+<h5>Ferramentas Utilizadas:</h5>
+<ul>
+  <li>JavaScript</li>
+  <li>Node.js</li>
+  <li>Next</li>
+  <li>HTML 5</li>
+  <li>CSS 3</li>
+  <li>API</li>
+  <li>Git</li>
+  <li>Canva</li>
+</ul>
