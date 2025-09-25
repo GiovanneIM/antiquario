@@ -16,6 +16,7 @@
   <li>JavaScript</li>
   <li>Node.js</li>
   <li>Next</li>
+  <li>Bootstrap</li>
   <li>HTML 5</li>
   <li>CSS 3</li>
   <li>API</li>
