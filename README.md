@@ -1,7 +1,7 @@
-<h3>Trabalho Linguagem de Marcação</h3>
+<h3>Trabalho Linguagem de Marcação II</h3>
 
 <h1>ANTIQUÁRIO - Cassa di Pietà</h1>
-
+<p>Trabalho para a disciplina Linguagem de Marcação II, 2º semestre do curso de Técnico em Desenvolvimento de Sistemas na escola SENAI - Armando de Arruda Pereira</p>
 
 <h5>Participantes:</h5>
 <ul>
