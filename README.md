@@ -11,7 +11,7 @@
 </ul>
 
 
-<h5>Ferramentas Utilizadas:</h5>
+<h5>Tecnologias utilizadas:</h5>
 <ul>
   <li>JavaScript</li>
   <li>Node.js</li>
