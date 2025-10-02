@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import UserCard from "@/components/UserCard";
 
 export default function Home() {
     return (
@@ -59,7 +60,12 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="divisoria"></div>
+            
+
+
+            <UserCard></UserCard>
+
+          
         </>
     );
 }
