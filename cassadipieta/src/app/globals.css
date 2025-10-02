@@ -22,6 +22,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    min-height: 100vh;
+    /* background-color: #f3f1e7 !important; */
 }
 
 * {
@@ -42,6 +45,9 @@ a {
 }
 
 
+.cassadipieta {
+    color: red;
+}
 
 
 .container-carrossel {
@@ -50,4 +56,9 @@ a {
 
 .carousel-item {
     transition-duration: 1s !important;
+}
+
+.divisoria {
+    height: 1rem;
+    background-color: #0a0a0a;
 }
