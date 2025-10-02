@@ -4,6 +4,8 @@ import styles from "./page.module.css";
 export default function Home() {
     return (
         <>
+            <div className="divisoria"></div>
+            
             <div className="container-carrossel">
                 <div id="carouselExampleIndicators" className="carousel slide carrossel" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -56,6 +58,11 @@ export default function Home() {
                     </button>
                 </div>
             </div>
+<<<<<<< HEAD
+=======
+
+            <div className="divisoria"></div>
+>>>>>>> e4023bd2e63cf331279c3c153dbeac7153532fef
         </>
     );
 }
