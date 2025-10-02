@@ -1,10 +1,16 @@
+import "./header.css"
+import Link from "next/link"
+
 export default function Header() {
     return (<>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                    Navbar
-                </a>
+                <div>
+                    <Link className="nav-link" href="/">
+                        <img src="/img/cassadPieta.svg" height={64}/>
+                    </Link>
+                </div>
+
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -16,12 +22,13 @@ export default function Header() {
                 >
                     <span className="navbar-toggler-icon" />
                 </button>
+
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">
+                            <Link className="nav-link" href="/">
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
@@ -29,10 +36,10 @@ export default function Header() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link className="nav-link" href="/contato">
                                 Contato
-                            </a>
-                        </li>
+                            </Link>
+                        </li>{" "}
                         <li className="nav-item dropdown">
                             <a
                                 className="nav-link dropdown-toggle"
@@ -63,7 +70,23 @@ export default function Header() {
                         </li>
                     </ul>
                 </div>
+
+                <div className='divLogin'>
+                    <ul className="listaLogin">
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">
+                                Login
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">
+                                Cadastro
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
+        <div className="divisoria"></div>
     </>);
 }
