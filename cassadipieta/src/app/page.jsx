@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <>
             <div className="container-carrossel">
-                <div id="carouselExampleIndicators" className="carousel slide carrossel">
+                <div id="carouselExampleIndicators" className="carousel slide carrossel" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators"
                             data-bs-slide-to={0}

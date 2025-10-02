@@ -43,6 +43,11 @@ a {
 
 
 
+
 .container-carrossel {
     width: 100%;
+}
+
+.carousel-item {
+    transition-duration: 1s !important;
 }
