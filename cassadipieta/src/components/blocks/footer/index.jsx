@@ -115,7 +115,7 @@ export default function Footer() {
                     </li>{" "}
                 </ul>{" "}
             </div>{" "}
-                <p className="text-body-secondary">© 2025 Company, Inc</p>
+            <p className="text-body-secondary">© 2025 Company, Inc</p>
         </footer>{" "}
     </>);
 }
