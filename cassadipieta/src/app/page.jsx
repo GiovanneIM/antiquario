@@ -27,13 +27,13 @@ export default function Home() {
 
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="https://placehold.co/1440x500" className="d-block w-100" alt="..." />
+                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="https://placehold.co/1440x500" className="d-block w-100" alt="..." />
+                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="https://placehold.co/1440x500" className="d-block w-100" alt="..." />
+                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
                         </div>
                     </div>
 
