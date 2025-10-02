@@ -87,5 +87,6 @@ export default function Header() {
                 </div>
             </div>
         </nav>
+        <div className="divisoria"></div>
     </>);
 }
