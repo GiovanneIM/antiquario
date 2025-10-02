@@ -3,49 +3,70 @@ import styles from "./page.module.css";
 
 export default function Home() {
     return (
-        <div className={styles.page}>
-            <main className={styles.main}>
-                <Image
-                    className={styles.logo}
-                    src="/next.svg"
-                    alt="Next.js logo"
-                    width={180}
-                    height={38}
-                    priority
-                />
-                <ol>
-                    <li>
-                        Get started by editing <code>src/app/page.js</code>.
-                    </li>
-                    <li>Save and see your changes instantly.</li>
-                </ol>
-
-                <div className={styles.ctas}>
-                    <a
-                        className={styles.primary}
-                        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Image
-                            className={styles.logo}
-                            src="/vercel.svg"
-                            alt="Vercel logomark"
-                            width={20}
-                            height={20}
+        <>
+            <div className="container-carrossel">
+                <div id="carouselExampleIndicators" className="carousel slide carrossel" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to={0}
+                            className="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
                         />
-                        Deploy now
-                    </a>
-                    <a
-                        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.secondary}
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to={1}
+                            aria-label="Slide 2"
+                        />
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to={2}
+                            aria-label="Slide 3"
+                        />
+                    </div>
+
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+
+                    <button type="button"
+                        className="carousel-control-prev"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
                     >
-                        Read our docs
-                    </a>
+                        <span className="carousel-control-prev-icon" aria-hidden="true" />
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+
+                    <button type="button"
+                        className="carousel-control-next"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                    >
+                        <span className="carousel-control-next-icon" aria-hidden="true" />
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
+<<<<<<< HEAD
             </main>
         </div>
+=======
+            </div>
+
+
+
+            <div className="container">
+
+            </div>
+        </>
+>>>>>>> 9b95a22ff019ea96366f58b02bf1bd4585534849
     );
 }

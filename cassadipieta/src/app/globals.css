@@ -40,3 +40,14 @@ a {
         color-scheme: dark;
     }
 }
+
+
+
+
+.container-carrossel {
+    width: 100%;
+}
+
+.carousel-item {
+    transition-duration: 1s !important;
+}
