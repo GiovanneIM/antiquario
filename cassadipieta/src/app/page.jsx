@@ -57,18 +57,9 @@ export default function Home() {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
-<<<<<<< HEAD
-            </main>
-        </div>
-=======
             </div>
 
             <div className="divisoria"></div>
-
-            <div className="container">
-                <div>Seja bem-vindo(a) à <span className="cassadipieta">Cassa d'Pietá</span> seu lar de artigos nostalgicos</div>
-            </div>
         </>
->>>>>>> 9b95a22ff019ea96366f58b02bf1bd4585534849
     );
 }
