@@ -206,9 +206,7 @@ export default function Footer() {
             </div>
 
             <div className="col-6 marca">
-                <div>
-                    <img src="/img/cassadPieta.svg" width={'75%'}/>
-                </div>
+                <img src="/img/cassadPieta.svg" width={'75%'}/>
 
                 <p className="text-body-secondary">© 2025 Todos os direitos reservados</p>
             </div>
