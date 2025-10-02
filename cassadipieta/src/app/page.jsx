@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
     return (
         <>
-            <div className="divisoria"></div>
+            {/* <div className="divisoria"></div> */}
             
             <div className="container-carrossel">
                 <div id="carouselExampleIndicators" className="carousel slide carrossel" data-bs-ride="carousel">
