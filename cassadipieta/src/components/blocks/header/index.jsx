@@ -6,9 +6,9 @@ export default function Header() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div className="container-fluid">
                 <div>
-                    <a className="navbar-brand" href="#">
+                    <Link className="nav-link" href="/">
                         <img src="/img/cassadPieta.svg" height={64}/>
-                    </a>
+                    </Link>
                 </div>
 
                 <button
@@ -22,6 +22,7 @@ export default function Header() {
                 >
                     <span className="navbar-toggler-icon" />
                 </button>
+
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
