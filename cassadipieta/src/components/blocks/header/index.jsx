@@ -1,10 +1,15 @@
+import './header.css'
+
 export default function Header() {
     return (<>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                    Navbar
-                </a>
+                <div>
+                    <a className="navbar-brand" href="#">
+                        <img src="/img/cassadPieta.svg" height={64}/>
+                    </a>
+                </div>
+
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -60,6 +65,21 @@ export default function Header() {
                                     </a>
                                 </li>
                             </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className='divLogin'>
+                    <ul className="listaLogin">
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">
+                                Login
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">
+                                Cadastro
+                            </a>
                         </li>
                     </ul>
                 </div>
