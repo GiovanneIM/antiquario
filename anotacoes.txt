@@ -1,0 +1,14 @@
+PAGINAS:
+Inicial
+Mostruário
+Produto (visualização)
+Contato + sobre nós
+
+
+COMPONENTS:
+Navbar
+Footer
+Card
+
+
+ROTAS API:

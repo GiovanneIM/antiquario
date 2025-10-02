@@ -1,3 +1,9 @@
+/*
+PALETA DE CORES:
+VERMELHO: #c43c3c
+AMARELO: #fff6d2
+*/
+
 :root {
     --background: #ffffff;
     --foreground: #171717;
@@ -22,6 +28,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    min-height: 100vh;
+    /* background-color: #f3f1e7 !important; */
 }
 
 * {
@@ -39,4 +48,23 @@ a {
     html {
         color-scheme: dark;
     }
+}
+
+
+.cassadipieta {
+    color: red;
+}
+
+
+.container-carrossel {
+    width: 100%;
+}
+
+.carousel-item {
+    transition-duration: 1s !important;
+}
+
+.divisoria {
+    height: 1rem;
+    background-color: #0a0a0a;
 }
