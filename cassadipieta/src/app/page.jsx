@@ -55,18 +55,7 @@ export default function Home() {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
-<<<<<<< HEAD
-            </main>
-        </div>
-=======
-            </div>
-
-
-
-            <div className="container">
-
             </div>
         </>
->>>>>>> 9b95a22ff019ea96366f58b02bf1bd4585534849
     );
 }

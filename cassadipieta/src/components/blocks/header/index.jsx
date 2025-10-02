@@ -1,8 +1,11 @@
+import "./header.css"
+import Link from "next/link";
+
 export default function Header() {
     return (<>
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                     Navbar
                 </a>
                 <button
@@ -19,9 +22,9 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">
+                            <Link className="nav-link" href="/">
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
@@ -29,10 +32,10 @@ export default function Header() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <Link className="nav-link" href="/contato">
                                 Contato
-                            </a>
-                        </li>
+                            </Link>
+                        </li>{" "}
                         <li className="nav-item dropdown">
                             <a
                                 className="nav-link dropdown-toggle"
