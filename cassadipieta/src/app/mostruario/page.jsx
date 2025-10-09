@@ -1,7 +1,6 @@
 "use client"
 import UserCard from '@/components/UserCard'
-const fs = require('fs');
-
+import produtos from '/produtos.js'
 
 
 export default function prod() {
@@ -9,7 +8,7 @@ export default function prod() {
 
     return (
         <>
-            {fs.readFile('./../../../../produtos.json', 'utf8',(produtos) => {
+           
                 {
                     produtos.map((produto) => {
                         <UserCard
@@ -23,7 +22,6 @@ export default function prod() {
                         ></UserCard>
                     })
                 }
-            })}
         </>
     )
 }

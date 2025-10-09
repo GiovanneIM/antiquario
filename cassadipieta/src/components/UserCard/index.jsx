@@ -1,6 +1,5 @@
 import "./card.css"
 import "@/app/globals.css"
-
 export default function UserCard() {
 
     nome,

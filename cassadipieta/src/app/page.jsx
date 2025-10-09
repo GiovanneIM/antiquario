@@ -5,8 +5,6 @@ import UserCard from "@/components/UserCard";
 export default function Home() {
     return (
         <>
-            {/* <div className="divisoria"></div> */}
-            
             <div className="container-carrossel">
                 <div id="carouselExampleIndicators" className="carousel slide carrossel" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -60,10 +58,7 @@ export default function Home() {
                 </div>
             </div>
 
-            
-
-
-            <UserCard></UserCard>
+            <div className="divisoria"></div>
 
           
         </>
