@@ -1,14 +1,14 @@
 import "./card.css"
 import "@/app/globals.css"
-export default function UserCard() {
-
+export default function UserCard({
     nome,
     img,
     categoria,
     descricao,
     preco,
     estado
-
+}
+) {
 
 
     return (<>

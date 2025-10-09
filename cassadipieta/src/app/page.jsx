@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import UserCard from "@/components/UserCard";
 
+
 export default function Home() {
     return (
         <>
