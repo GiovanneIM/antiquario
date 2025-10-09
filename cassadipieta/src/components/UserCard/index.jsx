@@ -1,7 +1,6 @@
 import "./card.css"
 import "@/app/globals.css"
-import produtos from './../../../../api/produtos.json'
-
+// import produtos from './../../../../api/produtos.json'
 export default function UserCard() {
 
 
