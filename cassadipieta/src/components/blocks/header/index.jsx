@@ -31,7 +31,7 @@ export default function Header() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <a className="nav-link" href="/mostruario">
                                 Mostruário
                             </a>
                         </li>
@@ -74,12 +74,12 @@ export default function Header() {
                 <div className='divLogin'>
                     <ul className="listaLogin">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#">
+                            <a className="nav-link" aria-current="page" href="/login">
                                 Login
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
+                            <a className="nav-link" href="/cadastro">
                                 Cadastro
                             </a>
                         </li>
