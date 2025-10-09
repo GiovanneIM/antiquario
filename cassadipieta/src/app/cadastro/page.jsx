@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import './login.css'
+import './cadastro.css'
 
 import Image from 'next/image'
 
-export default function Login() {
+export default function Cadastro() {
     return <>
         <div className="container m-0">
             <div className="corpo row">
@@ -25,7 +25,7 @@ export default function Login() {
 
                     <main className="form-signin w-100 m-auto">
                         <form>
-                            <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
+                            <h1 className="h3 mb-3 fw-normal">Cadastro</h1>
 
                             <div className="form-floating">
                                 <input

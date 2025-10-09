@@ -6,126 +6,127 @@ export default function Footer() {
     return (<>
         <footer className="py-5">
             <div className="container">
-            <div className="row">
-                
-                <div className="col-6 col-md-2 mb-3">
-                    
-                    <h5>Section</h5>
-                    <ul className="nav flex-column">
-                        
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Home
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Features
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Pricing
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                FAQs
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                About
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <div className="row">
 
-                <div className="col-6 col-md-2 mb-3">
-                    
-                    <h5>Section</h5>
-                    <ul className="nav flex-column">
-                        
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Home
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Features
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Pricing
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                FAQs
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                About
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    <div className="col-6 col-md-2 mb-3">
 
-                <div className="col-6 col-md-2 mb-3">
-                    
-                    <h5>Section</h5>
-                    <ul className="nav flex-column">
-                        
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Home
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Features
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                Pricing
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                FAQs
-                            </a>
-                        </li>
-                        <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0">
-                                About
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                        <h5>Section</h5>
+                        <ul className="nav flex-column">
 
-                <div className="col-md-5 offset-md-1 mb-3">
-                    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-                        <Image
-                            src='/img/cassadPieta.svg'
-                            alt="Logo Dunder Mifflin"
-                            // fill
-                            width={300}
-                            height={150}
-                            style={{ objectFit: 'contain' }}
-                        />
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Home
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Features
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    FAQs
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    About
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="col-6 col-md-2 mb-3">
+
+                        <h5>Section</h5>
+                        <ul className="nav flex-column">
+
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Home
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Features
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    FAQs
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    About
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="col-6 col-md-2 mb-3">
+
+                        <h5>Section</h5>
+                        <ul className="nav flex-column">
+
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Home
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Features
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    FAQs
+                                </a>
+                            </li>
+                            <li className="nav-item mb-2">
+                                <a href="#" className="nav-link p-0">
+                                    About
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="col-md-5 offset-md-1 mb-3">
+                        <Link href={'/'}>
+                            <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                                <Image
+                                    src='/img/cassadPieta.svg'
+                                    alt="Logo Dunder Mifflin"
+                                    width={300}
+                                    height={150}
+                                    style={{ objectFit: 'contain' }}
+                                />
+                            </div>
+                        </Link>
                     </div>
                 </div>
-            </div>
 
-            <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                
-                <p>© 2025 Company, Inc. All rights reserved.</p>
+                <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
 
-                <ul className="list-unstyled d-flex">
+                    <p>© 2025 Company, Inc. All rights reserved.</p>
+
+                    <ul className="list-unstyled d-flex">
                         <li className="ms-3">
                             <a className="" href="#" aria-label="Facebook">
                                 <svg className="bi" fill="currentColor" width={24} height={24} aria-hidden="true" viewBox="0 0 16 16">
@@ -148,7 +149,7 @@ export default function Footer() {
                             </a>
                         </li>
                     </ul>
-            </div>
+                </div>
             </div>
         </footer>
 

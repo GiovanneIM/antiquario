@@ -61,7 +61,7 @@ export default function Home() {
 
             <div className="divisoria"></div>
 
-          
+            <div style={{height:300}}></div>
         </>
     );
 }
