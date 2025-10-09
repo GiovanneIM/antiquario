@@ -1,10 +1,14 @@
 import "./card.css"
 import "@/app/globals.css"
-import produtos from './../../../../api/produtos.json'
 
 export default function UserCard() {
 
-
+    nome,
+    img,
+    categoria,
+    descricao,
+    preco,
+    estado
 
 
 
@@ -13,12 +17,12 @@ export default function UserCard() {
 
         <div className="card border border-danger bg-fundo-amarelo m-3" style={{ width: "18rem" }}>
             <div className="m-3">
-                <img src={produtos[0].img} className="card-img-top border border-bottom-0 border-end-0 border-opacity-25 border-danger rounded" alt="..." />
+                <img src={img} className="card-img-top border border-bottom-0 border-end-0 border-opacity-25 border-danger rounded" alt="..." />
             </div>
             <div className="card-body ">
-                <h5 className="card-title text-chocolate">{produtos[0].nome}</h5>
+                <h5 className="card-title text-chocolate">{nome}</h5>
                 <p className="card-text text-chocolate fs-3">
-                    R${produtos[0].preco}.00
+                    R${preco}.00
                 </p>
                 <div className="d-flex justify-content-center align-items-center border-top border-danger">
 
@@ -52,7 +56,7 @@ export default function UserCard() {
                                         aria-label="Close"
                                     />
                                 </div>
-                                <div className="modal-body">O produto <h5>{produtos[0].nome}</h5> foi adicionado ao seu carrinho de compras</div>
+                                <div className="modal-body">O produto <h5>{nome}</h5> foi adicionado ao seu carrinho de compras</div>
                                 <div className="modal-footer">
                                     <button
                                         type="button"
