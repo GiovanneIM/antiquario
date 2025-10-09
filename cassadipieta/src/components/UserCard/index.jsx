@@ -7,8 +7,10 @@ export default function UserCard({
     descricao,
     preco,
     estado
-}
-) {
+}) {
+
+
+
 
 
     return (<>
@@ -16,7 +18,18 @@ export default function UserCard({
 
         <div className="card border border-danger bg-fundo-amarelo m-3" style={{ width: "18rem" }}>
             <div className="m-3">
-                <img src={img} className="card-img-top border border-bottom-0 border-end-0 border-opacity-25 border-danger rounded" alt="..." />
+                <img
+                    src={img}
+                    className="card-img-top border border-bottom-0 border-end-0 border-opacity-25 border-danger rounded"
+                    style={{
+                        height: "200px",
+                        width: "100%",
+                        objectFit: "contain",
+                        objectPosition: "center",
+                        backgroundColor: "#FFFFFF" // fundo neutro pro espaço sobrando
+                    }}
+                />
+
             </div>
             <div className="card-body ">
                 <h5 className="card-title text-chocolate">{nome}</h5>

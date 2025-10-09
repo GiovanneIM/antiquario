@@ -6,3 +6,9 @@
 .bg-fundo-amarelo {
     background-color: #fff6d2;
 }
+.animate{
+    transition: transform 0.3s ease;
+}
+.animate:hover{
+    transform: scale(1.05);
+}
