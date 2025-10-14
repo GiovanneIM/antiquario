@@ -5,7 +5,7 @@
 <h1>ANTIQUÁRIO - Cassa di Pietà</h1>
 <p>Trabalho para a disciplina Linguagem de Marcação II, 2º semestre do curso de Técnico em Desenvolvimento de Sistemas na escola SENAI - Armando de Arruda Pereira.</p>
 
-<h5>Integrantes do projeto:</h5>
+<h4>Integrantes do projeto:</h4>
 <ul>
   <li>Arthur Polo</li>
   <li>Gabriel Marques</li>
@@ -13,7 +13,7 @@
 </ul>
 
 
-<h5>Tecnologias utilizadas:</h5>
+<h4>Tecnologias utilizadas:</h4>
 <ul>
   <li>JavaScript</li>
   <li>Node.js</li>
