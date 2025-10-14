@@ -7,9 +7,9 @@
 
 <h4>Integrantes do projeto:</h4>
 <ul>
-  <li>Arthur Polo</li>
-  <li>Gabriel Marques</li>
-  <li>Giovanne Isaac Marques</li>
+  <li><a href="https://github.com/ArthurGpolo">Arthur Polo</a></li>
+  <li><a href="https://github.com/njz-gabriel">Gabriel Marques</a></li>
+  <li><a href="https://github.com/GiovanneIM">Giovanne Isaac Marques</a></li>
 </ul>
 
 
