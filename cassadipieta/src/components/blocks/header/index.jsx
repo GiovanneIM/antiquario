@@ -1,94 +1,61 @@
 import "./header.css"
-import Link from "next/link"
 
 export default function Header() {
     return (<>
-        <header>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-                <div className="container-fluid">
+        <header className="p-3 text-bg-dark">
+            <div className="container d-flex flex-row flex-wrap justify-content-between align-items-center">
+                <div className="col-12 col-sm-4 col-md-4 col-lg-1 header-img d-flex justify-content-center">
+                    <a href="/">
+                        <img src="/img/cassadPieta.svg" alt="Cassad Pietà" className="col-12" />
+                    </a>
+                </div>
+
+                <div className="col-12 col-sm-8 col-md-8 col-lg-7 d-flex flex-column flex-lg-row justify-content-end gap-2 gap-sm-4">
                     <div>
-                        <Link className="nav-link" href="/">
-                            <img src="/img/cassadPieta.svg" height={64} />
-                        </Link>
-                    </div>
+                        <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center justify-content-md-end mb-md-0">
 
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <Link className="nav-link active" href="/">
-                                    Home
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/mostruario">
-                                    Mostruário
+                            <li>
+                                <a href="/" className="nav-link px-2 text-secondary">
+                                    Inicio
                                 </a>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="/contato">
+                            <li>
+                                <a href="/mostruario" className="nav-link px-2 text-white">
+                                    Mostruario
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/contato" className="nav-link px-2 text-white">
                                     Contato
-                                </Link>
-                            </li>{" "}
-                            <li className="nav-item dropdown">
-                                <a
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Produtos
                                 </a>
-                                <ul className="dropdown-menu">
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Another action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Something else here
-                                        </a>
-                                    </li>
-                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" className="nav-link px-2 text-white">
+                                    FAQs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" className="nav-link px-2 text-white">
+                                    About
+                                </a>
                             </li>
                         </ul>
                     </div>
 
-                    <div className='divLogin'>
-                        <ul className="listaLogin">
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/login">
-                                    Login
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/cadastro">
-                                    Cadastro
-                                </a>
-                            </li>
-                        </ul>
+                    <div className="text-center text-sm-end">
+                        <a href="/login">
+                            <button type="button" className="btn btn-outline-light me-2">
+                                Entrar
+                            </button>
+                        </a>
+                        <a href="/cadastro">
+                            <button type="button" className="btn btn-vermelho">
+                                Cadastrar
+                            </button>
+                        </a>
                     </div>
                 </div>
-            </nav>
-            <div className="divisoria"></div>
+            </div>
         </header>
     </>);
 }

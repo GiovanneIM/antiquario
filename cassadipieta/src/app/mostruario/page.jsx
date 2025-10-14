@@ -1,4 +1,4 @@
-import UserCard from '@/components/UserCard'
+import Card from '@/components/Card'
 // import produtos from '../produtos.js'
 
 import fs from 'fs';
@@ -12,19 +12,18 @@ export default function prod() {
 
     return (
         <div className="container my-5">
-            <div className="row g-4">
-                {produtos.map((produto, index) => (
-                    <div key={index} className="col-12 col-sm-6 col-lg-3 animate">
-                        <UserCard
+            <div className="row">
+                <div className="col-12 d-flex flex-wrap justify-content-center gap-3">
+                    {produtos.map((produto, index) => (
+                        <Card
+                            key={index}
                             nome={produto.nome}
-                            categoria={produto.categoria}
                             img={produto.img}
                             preco={produto.preco}
-                            estado={produto.estado}
-                            descricao={produto.descricao}
                         />
-                    </div>
-                ))}
+                    ))}
+                </div>
+
             </div>
         </div>
     )

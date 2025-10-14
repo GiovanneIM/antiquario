@@ -1,12 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import UserCard from "@/components/UserCard";
+import UserCard from "@/components/Card";
 
 
 export default function Home() {
     return (
         <>
-            <div className="container-carrossel">
+            <div className="container-carrossel col-0 col-sm-12">
                 <div id="carouselExampleIndicators" className="carousel slide carrossel" data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators"

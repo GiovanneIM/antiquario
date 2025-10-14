@@ -32,7 +32,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 
     min-height: 100vh;
-    /* background-color: #f3f1e7 !important; */
+    background-color: #f5f5f5 !important;
 }
 
 * {
@@ -69,4 +69,17 @@ a {
 .divisoria {
     height: 1rem;
     background-color: #0a0a0a;
+}
+
+
+.bg-vermelho {
+    background-color: #c43c3c !important;
+}
+
+.btn-vermelho {
+    background-color: #c43c3c !important;
+    color: white !important;
+}
+.btn-vermelho:hover {
+    background-color: #c43c3c8d !important;
 }

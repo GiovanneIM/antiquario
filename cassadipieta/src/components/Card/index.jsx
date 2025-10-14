@@ -1,52 +1,52 @@
 import "./card.css"
 import "@/app/globals.css"
-export default function UserCard({
+export default function Card({
     nome,
     img,
-    categoria,
-    descricao,
-    preco,
-    estado
+    preco
 }) {
-
-
-
-
-
     return (<>
-
-
-        <div className="card border border-danger bg-fundo-amarelo m-3" style={{ width: "18rem" }}>
-            <div className="m-3">
-                <img
-                    src={img}
-                    className="card-img-top border border-bottom-0 border-end-0 border-opacity-25 border-danger rounded"
-                    style={{
-                        height: "200px",
-                        width: "100%",
-                        objectFit: "contain",
-                        objectPosition: "center",
-                        backgroundColor: "#FFFFFF" // fundo neutro pro espaço sobrando
-                    }}
-                />
-
+        <div className="card">
+            <div className="col-12 d-flex justify-content-center p-2">
+                <div className="card-img">
+                    <a href={''}>
+                        <img
+                            src={img}
+                            alt={nome}
+                        />
+                    </a>
+                </div>
             </div>
-            <div className="card-body ">
-                <h5 className="card-title text-chocolate">{nome}</h5>
-                <p className="card-text text-chocolate fs-3">
-                    R${preco}.00
-                </p>
-                <div className="d-flex justify-content-center align-items-center border-top border-danger">
 
+            <div className="p-2">
+                <div className="card-nome">
+                    <a href=''>{nome}</a>
+                </div>
+
+                <div className="card-preco fs-3">
+                    R${preco}
+                </div>
+
+                <div className="card-div_botoes pt-3">
                     {/* Button trigger modal */}
                     <button
                         type="button"
-                        className="btn btn-danger m-3 "
+                        className="btn card-btn"
                         data-bs-toggle="modal"
                         data-bs-target="#exampleModal"
                     >
-                        🛒 Carrinho
+                        Ver Produto
                     </button>
+
+                    <button
+                        type="button"
+                        className="btn card-btn "
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                    >
+                        Carrinho
+                    </button>
+
                     {/* Modal */}
                     <div
                         className="modal fade"
@@ -85,11 +85,6 @@ export default function UserCard({
                 </div>
             </div>
         </div>
-
-
-
-
-
 
     </>)
 }

@@ -1,6 +1,4 @@
 import "./footer.css"
-import Link from "next/link"
-import Image from "next/image";
 
 export default function Footer() {
     return (<>
@@ -108,9 +106,9 @@ export default function Footer() {
                     </div>
 
                     <div className="col-md-5 offset-md-1 mb-3">
-                        <Link href={'/'}>
+                        <a href={'/'}>
                             <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-                                <Image
+                                <img
                                     src='/img/cassadPieta.svg'
                                     alt="Logo Dunder Mifflin"
                                     width={300}
@@ -118,7 +116,7 @@ export default function Footer() {
                                     style={{ objectFit: 'contain' }}
                                 />
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
 

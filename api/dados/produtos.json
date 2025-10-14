@@ -4,7 +4,7 @@
         "nome": "Capacete do StormTrooper Glasslite",
         "categoria": "Brinquedo",
         "descricao": "Capacete dos Stormtrooper fabricada pela antiga Glasslite. Item extremamente raro e ideal para os maiores fãs de Star Wars",
-        "preco": 8000,
+        "preco": 8000.00,
         "estado": "Muito Bom; Apresenta poucos sinais de uso",
         "img": "https://http2.mlstatic.com/D_NQ_NP_791547-MLB31203896025_062019-O.webp"
     },
@@ -13,7 +13,7 @@
         "nome": "xicara Barroca",
         "categoria": "Louças e porcelana",
         "descricao": "Xicara Barroca, datada por volta do seculo XVIII, encontrada em de Ouro Preto, Minas Gerais. Item valioso para quem ama arte e deseja saber mais sobre a arte brasileira",
-        "preco": 500,
+        "preco": 500.00,
         "estado": "Execelente; Não possui nenhuma marca de uso, extremamente conservado",
         "img": "https://http2.mlstatic.com/D_Q_NP_2X_901631-MLB92600377178_092025-E-xicara-cafezinho-limoges-brasil-imperio-baro-do-ribeiro.webp"
     },
@@ -22,7 +22,7 @@
         "nome": "Katana",
         "categoria": "Ferramentas",
         "descricao": "katana japonesa, trazida pelos portugues durante o seculo XVI, durante as expedições para a Asia, suporte incluso porém não é de época. Item que desperta a curiosidade para amantes da historia",
-        "preco": 2000,
+        "preco": 2000.00,
         "estado": "Rústico; apresenta marcas de uso e época, mantindo sem restauração para preservar os sinais de tempo.",
         "img": "https://http2.mlstatic.com/D_NQ_NP_916036-MLB90663165117_082025-O-espada-decorativa-japonesa-katana-preta-100-cm-c-suporte.webp"
     },
@@ -31,7 +31,7 @@
         "nome": "Alaúde",
         "categoria": "Música",
         "descricao": "Alaúde, um instrumento musical muito utilizado durante o período medieval, foi restaurado pelo renomado luthiere austriaco Noah A. H. Habsburgo. Item para amantes de música.",
-        "preco": 3200,
+        "preco": 3200.00,
         "estado": "Restaurado; restaurado para ter o funcionamento correto.",
         "img": "https://http2.mlstatic.com/D_Q_NP_2X_626559-MLB93868700627_102025-E.webp"
     },
@@ -40,7 +40,7 @@
         "nome": "Maquina de costurar",
         "categoria": "Ferramentas",
         "descricao": "Maquina de costura, com cerca de 50 anos de idade. Item para quem gosta de tradicionalismo.",
-        "preco": 1000,
+        "preco": 1000.00,
         "estado": "Necessita restauração; pode apresenta falha no funcionamento.",
         "img": "https://http2.mlstatic.com/D_NQ_NP_792396-MLA92924967318_092025-O.webp"
     },
@@ -49,13 +49,13 @@
         "nome": "Tinteiro",
         "categoria": "Ferramentas",
         "descricao": "Tinteiro antigo, com design europeu. Item para quem busca o tradicional e conservado.",
-        "preco": 500,
+        "preco": 500.00,
         "estado": "Execelente; Não possui nenhuma marca de uso, extremamente conservado",
         "img": "https://http2.mlstatic.com/D_NQ_NP_745946-CBT53962763523_022023-O.webp"
     },
     {
         "id": 7,
-        "nome": "Bule",
+        "nome": "",
         "categoria": "",
         "descricao": "",
         "preco": "",

@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import './login.css'
 
 import Image from 'next/image'
@@ -11,13 +10,9 @@ export default function Login() {
                 <div className='col-12 col-md-6 div_logo'>
                     <a
                         href={'/'}
+                        className='col-8 col-md-8 col-lg-6'
                     >
-                        <Image
-                            src={'/img/cassadPieta.svg'}
-                            alt='Logo Cassa di Pieta'
-                            width={300}
-                            height={200}
-                        />
+                        <img src='/img/cassadPieta.svg' alt='Logo Cassa di Pieta' className='col-12'/>
                     </a>
                 </div>
 
