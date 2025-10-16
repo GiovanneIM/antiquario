@@ -1,4 +1,5 @@
 import "./contato.css"
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -336,21 +337,12 @@ export default function Home() {
                     </div>{" "}
                     <div className="col-md-5">
                         {" "}
-                        <svg
-                            aria-label="Placeholder: 500x500"
-                            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                            height={500}
-                            preserveAspectRatio="xMidYMid slice"
-                            role="img"
+                        <Image
+                            src= "/img/imgAntiquario.jpg"
+                            alt="imgAntiquario"
                             width={500}
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
-                            <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                                500x500
-                            </text>
-                        </svg>{" "}
+                            height={600}
+                        />    
                     </div>{" "}
                 </div>
             </div>
