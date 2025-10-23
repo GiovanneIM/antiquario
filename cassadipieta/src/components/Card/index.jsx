@@ -7,9 +7,9 @@ export default function Card({ nome, img, preco }) {
 
   return (
     <>
-      <div className="card">
+      <div className="card-prod">
         <div className="col-12 d-flex justify-content-center p-2">
-          <div className="card-img">
+          <div className="card-prod-img">
             <a href="">
               <img src={img} alt={nome} />
             </a>
@@ -17,24 +17,24 @@ export default function Card({ nome, img, preco }) {
         </div>
 
         <div className="p-2">
-          <div className="card-nome">
+          <div className="card-prod-nome">
             <a href="">{nome}</a>
           </div>
 
-          <div className="card-preco fs-3">R${preco}</div>
+          <div className="card-prod-preco fs-3">R${preco}</div>
 
-          <div className="card-div_botoes pt-3">
+          <div className="card-prod-div_botoes pt-3">
             {/* Botão que abre o modal */}
             <button
               type="button"
-              className="btn card-btn"
+              className="btn card-prod-btn"
             >
               Ver Produto
             </button>
 
             <button
               type="button"
-              className="btn card-btn"
+              className="btn card-prod-btn"
               data-bs-toggle="modal"
               data-bs-target={`#${modalId}`}
             >
