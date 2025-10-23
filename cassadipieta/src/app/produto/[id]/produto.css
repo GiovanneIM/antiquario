@@ -5,9 +5,11 @@
     margin: auto;
 }
 
-.row{
+.produto{
     justify-content: center;
     gap: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
 }
 
 .img-fluid{

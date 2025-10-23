@@ -10,10 +10,10 @@ export default async function Produto({ params }) {
 
     return (<>
         <div className="conteiner">
-            <div className="row py-5 col-12">
+            <div className="produto row py-5 col-10 my-5 shadow-sm">
                 {/* Product Images */}
                 <div className="col-md-4 mb-4">
-                    <div className="imgPrincipal col-12 ratio ratio-1x1">
+                    <div className="imgPrincipal col-12 ratio ratio-1x1 border rounded shadow-sm">
                         <img
                             src={produto.img}
                             alt="Product"
@@ -21,28 +21,28 @@ export default async function Produto({ params }) {
                         />
                     </div>
                     <div className="d-flex justify-content-between flex-wrap gap-3 col-12">
-                        <div className="thumbnail">
+                        <div className="thumbnail border shadow-sm">
                             <img
                                 src={produto.img}
                                 alt="Thumbnail 1"
                                 className="rounded active"
                             />
                         </div>
-                        <div className="thumbnail">
+                        <div className="thumbnail border shadow-sm">
                             <img
                                 src={produto.img}
                                 alt="Thumbnail 1"
                                 className="rounded active"
                             />
                         </div>
-                        <div className="thumbnail">
+                        <div className="thumbnail border shadow-sm">
                             <img
                                 src={produto.img}
                                 alt="Thumbnail 1"
                                 className="rounded active"
                             />
                         </div>
-                        <div className="thumbnail">
+                        <div className="thumbnail border shadow-sm">
                             <img
                                 src={produto.img}
                                 alt="Thumbnail 1"
@@ -56,77 +56,32 @@ export default async function Produto({ params }) {
                     <h2 className="mb-3">{produto.nome}</h2>
                     <p className="text-muted mb-4">{produto.categoria}</p>
                     <div className="mb-3">
-                        <span className="h4 me-2">{produto.preco}</span>
+                        <span className="h4 me-2">R${produto.preco.toFixed(2).replace('.', ',')}</span>
                         <span className="text-muted">
                             <s>{produto.preco}</s>
                         </span>
                     </div>
-                    <div className="mb-3">
-                        <i className="bi bi-star-fill text-warning" />
-                        <i className="bi bi-star-fill text-warning" />
-                        <i className="bi bi-star-fill text-warning" />
-                        <i className="bi bi-star-fill text-warning" />
-                        <i className="bi bi-star-half text-warning" />
-                        <span className="ms-2">4.5 (120 reviews)</span>
-                    </div>
-                    <p className="mb-4">
-                        {produto.estado}
-                    </p>
                     <div className="mb-4">
-                        <h5>Color:</h5>
-                        <div className="btn-group" role="group" aria-label="Color selection">
-                            <input
-                                type="radio"
-                                className="btn-check"
-                                name="color"
-                                id="black"
-                                autoComplete="off"
-                                defaultChecked=""
-                            />
-                            <label className="btn btn-outline-dark" htmlFor="black">
-                                Black
-                            </label>
-                            <input
-                                type="radio"
-                                className="btn-check"
-                                name="color"
-                                id="silver"
-                                autoComplete="off"
-                            />
-                            <label className="btn btn-outline-secondary" htmlFor="silver">
-                                Silver
-                            </label>
-                            <input
-                                type="radio"
-                                className="btn-check"
-                                name="color"
-                                id="blue"
-                                autoComplete="off"
-                            />
-                            <label className="btn btn-outline-primary" htmlFor="blue">
-                                Blue
-                            </label>
+                        <strong>Condição:</strong>
+                        <br />
+                        <ul>
+                            {produto.estado.map((est, index) => { return <li key={index}>{est}</li> })}
+                        </ul>
+                    </div>
+                    <div className="mb-4">
+                        <div className="form-label">
+                            <strong>Descrição:</strong>
+                            <br />
+                            {produto.descricao}
                         </div>
                     </div>
-                    <div className="mb-4">
-                        <label htmlFor="quantity" className="form-label">
-                            Quantity:
-                        </label>
-                        <input
-                            type="number"
-                            className="form-control"
-                            id="quantity"
-                            defaultValue={1}
-                            min={1}
-                            style={{ width: 80 }}
-                        />
-                    </div>
-                    <button className="btn btn-primary btn-lg mb-3 me-2">
-                        <i className="bi bi-cart-plus" /> Add to Cart
+                    <button className="btn btn-vermelho btn-lg mb-3 me-2 d-flex justify-content-center align-items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-bag" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                        </svg>
+                        Comprar
                     </button>
-                    <button className="btn btn-outline-secondary btn-lg mb-3">
-                        <i className="bi bi-heart" /> Add to Wishlist
-                    </button>
+                    
                     <div className="mt-4">
                         <h5>Key Features:</h5>
                         <ul>

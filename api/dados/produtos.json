@@ -41,7 +41,7 @@
         "categoria": "Ferramentas",
         "descricao": "Maquina de costura, com cerca de 50 anos de idade. Item para quem gosta de tradicionalismo.",
         "preco": 1000.00,
-        "estado": "Necessita restauração; pode apresenta falha no funcionamento.",
+        "estado": ["Necessita restauração", "Pode apresenta falha no funcionamento"],
         "img": "https://http2.mlstatic.com/D_NQ_NP_792396-MLA92924967318_092025-O.webp"
     },
     {
