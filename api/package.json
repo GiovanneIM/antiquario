@@ -1,7 +1,11 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "express": "^5.1.0",
     "modules": "^0.4.0",
     "node": "^22.21.0"
+=======
+    "express": "^5.1.0"
+>>>>>>> 087f79d7f32f6a2831f4aa1e087ee4c77b6473ac
   }
 }
