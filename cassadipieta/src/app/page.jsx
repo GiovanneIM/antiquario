@@ -1,8 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import UserCard from "@/components/Card";
-
-
 export default function Home() {
     return (
         <>
@@ -73,18 +68,6 @@ export default function Home() {
                                     <li className="me-auto">
                                         <img src="/img/taca.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white"/>
                                     </li>
-                                    <li className="d-flex align-items-center me-3">
-                                        <svg className="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
-                                            <use xlinkHref="#geo-fill" />
-                                        </svg>
-                                        <small>Earth</small>
-                                    </li>
-                                    <li className="d-flex align-items-center">
-                                        <svg className="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
-                                            <use xlinkHref="#calendar3" />
-                                        </svg>
-                                        <small>3d</small>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -98,18 +81,6 @@ export default function Home() {
                                     <li className="me-auto">
                                         <img src="/img/vasogrego.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white"/>
                                     </li>
-                                    <li className="d-flex align-items-center me-3">
-                                        <svg className="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
-                                            <use xlinkHref="#geo-fill" />
-                                        </svg>
-                                        <small>Pakistan</small>
-                                    </li>
-                                    <li className="d-flex align-items-center">
-                                        <svg className="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
-                                            <use xlinkHref="#calendar3" />
-                                        </svg>
-                                        <small>4d</small>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -122,20 +93,6 @@ export default function Home() {
                                 <ul className="d-flex list-unstyled mt-auto">
                                     <li className="me-auto">
                                         <img src="/img/vitrola.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white"/>
-                                    </li>
-
-                                    <li className="d-flex align-items-center me-3">
-                                        <svg className="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
-                                            <use xlinkHref="#geo-fill" />
-                                        </svg>
-                                        <small>California</small>
-                                    </li>
-
-                                    <li className="d-flex align-items-center">
-                                        <svg className="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
-                                            <use xlinkHref="#calendar3" />
-                                        </svg>
-                                        <small>5d</small>
                                     </li>
                                 </ul>
                             </div>

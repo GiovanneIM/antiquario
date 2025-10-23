@@ -1,7 +1,9 @@
+'use client'
+
 import "./card.css";
 import "@/app/globals.css";
 
-export default function Card({ nome, img, preco }) {
+export default function Card({id, nome, img, preco }) {
   // cria um ID único pro modal (por exemplo, baseado no nome)
   const modalId = `modal-${nome.replace(/\s+/g, "-").toLowerCase()}`;
 
@@ -28,6 +30,7 @@ export default function Card({ nome, img, preco }) {
             <button
               type="button"
               className="btn card-prod-btn"
+              onClick={() => {window.location.href = `/produto/${id}`}}
             >
               Ver Produto
             </button>
