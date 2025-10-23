@@ -1,0 +1,43 @@
+.conteiner{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.row{
+    justify-content: center;
+    gap: 1rem;
+}
+
+.img-fluid{
+    padding-bottom: 5rem;
+}
+
+.imgPrincipal {
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.imgPrincipal img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.thumbnail {
+    margin-bottom: 1rem;
+    background-color: #fff;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
