@@ -23,7 +23,6 @@ export default function prod() {
                         />
                     ))}
                 </div>
-
             </div>
         </div>
     )
