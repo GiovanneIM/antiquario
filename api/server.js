@@ -7,18 +7,37 @@ const logger = require('./middlewares/logger');
 server.use(express.json());
 server.use(logger);
 
-//PÁGINA INICIAL
-server.get('/', (req, res) => {
-    res.status(200).send('Página inicial funcionado!!!')
-});
 
 server.options('/', (req, res) => {
     res.header('Allow', 'GET, OPTIONS');
     res.status(204).send('ERRO ao tentar abrir a página inicial');
 });
 
-//PÁGINA DA API QUE BUSCA UM ITEM PELO ID
-server.get('/:id', (req, res) => {
+// ROTAS
+
+// Rota para obter todos os produtos
+server.get('/produtos', (req, res) => {
+    fs.readFile('./dados/produtos.json', 'utf8')
+        .then(data => {
+            const produtos = JSON.parse(data);
+
+            if (!produtos) {
+                res.status(400).json({
+                    sucesso: false,
+                    erro: `Tarefa com o ${idProduto} não encontrada.`
+                });
+            } else {
+                res.status(201).json({ 
+                    sucesso: true,
+                    produtos: produtos 
+                });
+            }
+
+        });
+});
+
+// Rota para obter um produto pelo ID
+server.get('/produtos/:id', (req, res) => {
     const idProduto = parseInt(req.params.id);
 
     fs.readFile('./dados/produtos.json', 'utf8')
@@ -30,22 +49,33 @@ server.get('/:id', (req, res) => {
 
             if (!produtoEncontrado) {
                 console.log(`Tarefa com o ${idProduto} não encontrada.`);
-                res.status(400).send(`Tarefa com o ${idProduto} não encontrada.`);
+                res.status(400).json({
+                    sucesso: false,
+                    erro: `Tarefa com o ${idProduto} não encontrada.`
+                });
             } else {
-                console.log(JSON.stringify(produtoEncontrado, null, 2));
-                res.status(201).send(JSON.stringify(produtoEncontrado, null, 2));
+                res.status(201).json({ 
+                    sucesso: true,
+                    produto: produtoEncontrado 
+                });
             }
-            
+
         });
 });
 
-//OPTIONS PARA SERVER GET ID
-server.options('/:id', (req, res) => {
+
+// OPTIONS
+server.options('/produtos', (req, res) => {
     res.header('Allow', 'GET, OPTIONS');
-    res.status(204).send('erro ao tentar buscar um item específico da API');
 });
 
-//FINAL
+server.options('/produtos/:id', (req, res) => {
+    res.header('Allow', 'GET, OPTIONS');
+});
+
+
+
+//Iniciando a API
 server.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
 });
