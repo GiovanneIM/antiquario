@@ -6,7 +6,7 @@
         "descricao": "Capacete dos Stormtrooper fabricada pela antiga Glasslite. Item extremamente raro e ideal para os maiores fãs de Star Wars",
         "preco": 8000.00,
         "estado": "Muito Bom; Apresenta poucos sinais de uso",
-        "img": "https://http2.mlstatic.com/D_NQ_NP_791547-MLB31203896025_062019-O.webp"
+        "img": ["https://http2.mlstatic.com/D_NQ_NP_791547-MLB31203896025_062019-O.webp"]
     },
     {
         "id": 2,
@@ -41,8 +41,10 @@
         "categoria": "Ferramentas",
         "descricao": "Maquina de costura, com cerca de 50 anos de idade. Item para quem gosta de tradicionalismo.",
         "preco": 1000.00,
+        "preco_wdisc": 1500.00,
         "estado": ["Necessita restauração", "Pode apresenta falha no funcionamento"],
-        "img": "https://http2.mlstatic.com/D_NQ_NP_792396-MLA92924967318_092025-O.webp"
+        "img": ["https://http2.mlstatic.com/D_NQ_NP_792396-MLA92924967318_092025-O.webp","https://http2.mlstatic.com/D_NQ_NP_2X_613060-MLB86335602910_062025-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_718652-MLB82193749967_012025-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_963225-MLB82193749953_012025-F.webp"],
+        "funcionalidades":["Costura: Une tecidos com diferentes tipos de pontos.","Bordado: Cria desenhos decorativos sobre o tecido.","Overloque: Refina e evita que o tecido desfie.","Ajuste de pontos: Permite controlar o tamanho e estilo da costura."]
     },
     {
         "id": 6,

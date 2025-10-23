@@ -21,7 +21,16 @@ export default async function Produto({ params }) {
                         />
                     </div>
                     <div className="d-flex justify-content-between flex-wrap gap-3 col-12">
-                        <div className="thumbnail border shadow-sm">
+
+                        {produto.img.map((img, index) => {
+                            return <div className="thumbnail border shadow-sm">
+                                <img key={index} src={img} className="rounded active"/>
+                            </div>
+                        })}
+
+
+
+                        {/* <div className="thumbnail border shadow-sm">
                             <img
                                 src={produto.img}
                                 alt="Thumbnail 1"
@@ -48,7 +57,7 @@ export default async function Produto({ params }) {
                                 alt="Thumbnail 1"
                                 className="rounded active"
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/* Product Details */}
@@ -58,7 +67,7 @@ export default async function Produto({ params }) {
                     <div className="mb-3">
                         <span className="h4 me-2">R${produto.preco.toFixed(2).replace('.', ',')}</span>
                         <span className="text-muted">
-                            <s>{produto.preco}</s>
+                            <s>{produto.preco_wdisc.toFixed(2).replace('.', ',')}</s>
                         </span>
                     </div>
                     <div className="mb-4">
@@ -81,14 +90,11 @@ export default async function Produto({ params }) {
                         </svg>
                         Comprar
                     </button>
-                    
+
                     <div className="mt-4">
-                        <h5>Key Features:</h5>
+                        <h5>Utilidades:</h5>
                         <ul>
-                            <li>Industry-leading noise cancellation</li>
-                            <li>30-hour battery life</li>
-                            <li>Touch sensor controls</li>
-                            <li>Speak-to-chat technology</li>
+                            {produto.funcionalidades.map((est, index) => { return <li key={index}>{est}</li> })}
                         </ul>
                     </div>
                 </div>
