@@ -80,27 +80,6 @@ export default function Carrinho() {
                                             <h6 className="mb-1">{p.nome}</h6>
                                             <p className="text-muted mb-1">{p.descricao}</p>
                                         </div>
-                                        <div className="d-flex align-items-center gap-2 col-md-3">
-                                            <button
-                                                className="quantity-btn"
-                                                onClick={() => alterarQuantidade(p.id, -1)}
-                                            >
-                                                -
-                                            </button>
-                                            <input
-                                                type="number"
-                                                className="quantity-input"
-                                                value={p.quantidade}
-                                                min={1}
-                                                onChange={(e) => handleInputChange(p.id, e.target.value)}
-                                            />
-                                            <button
-                                                className="quantity-btn"
-                                                onClick={() => alterarQuantidade(p.id, 1)}
-                                            >
-                                                +
-                                            </button>
-                                        </div>
                                         <div className="col-md-1 text-end">
                                             <span className="fw-bold text-primary">{p.preco}</span>
                                         </div>
