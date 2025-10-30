@@ -9,7 +9,7 @@ export default async function prod() {
     return (
         <div className="container my-5">
             <div className="row">
-                <div className="col-12 d-flex flex-wrap justify-content-center gap-3">
+                <div className="col-12 d-flex flex-wrap justify-content-center">
                     {produtos.map((produto) => (
                         <Card
                             key={produto.id}

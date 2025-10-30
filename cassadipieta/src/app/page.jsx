@@ -1,6 +1,7 @@
 export default function Home() {
     return (
         <>
+            {/* carrossel */}
             <div className="container-carrossel col-0 col-sm-12">
                 <div id="carouselExampleIndicators" className="carousel slide carrossel" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -24,13 +25,13 @@ export default function Home() {
 
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
+                            <img src="/img/banner/banner-1.svg" className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
+                            <img src="/img/banner/banner-2.svg" className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="/img/banner.svg" className="d-block w-100" alt="..." />
+                            <img src="/img/banner/banner.svg" className="d-block w-100" alt="..." />
                         </div>
                     </div>
 
@@ -61,12 +62,12 @@ export default function Home() {
 
                 <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                     <div className="col">
-                        <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"style={{ backgroundImage: 'url("/img/taca.jpg")' }}>
+                        <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{ backgroundImage: 'url("/img/taca.jpg")' }}>
                             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
                                 <ul className="d-flex list-unstyled mt-auto">
                                     <li className="me-auto">
-                                        <img src="/img/taca.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white"/>
+                                        <img src="/img/taca.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white" />
                                     </li>
                                 </ul>
                             </div>
@@ -79,7 +80,7 @@ export default function Home() {
                                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
                                 <ul className="d-flex list-unstyled mt-auto">
                                     <li className="me-auto">
-                                        <img src="/img/vasogrego.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white"/>
+                                        <img src="/img/vasogrego.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white" />
                                     </li>
                                 </ul>
                             </div>
@@ -92,7 +93,7 @@ export default function Home() {
                                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
                                 <ul className="d-flex list-unstyled mt-auto">
                                     <li className="me-auto">
-                                        <img src="/img/vitrola.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white"/>
+                                        <img src="/img/vitrola.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white" />
                                     </li>
                                 </ul>
                             </div>

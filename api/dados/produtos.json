@@ -197,7 +197,7 @@
         "descricao": "Ampulheta do século XVIII, em vidro e madeira, utilizada para medir tempo em atividades diárias ou religiosas.",
         "preco": 700.00,
         "estado": ["Bom estado","Vidro intacto","Areia fluindo normalmente"],
-        "img": ["https://example.com/ampulheta-1.jpg","https://example.com/ampulheta-2.jpg","https://example.com/ampulheta-3.jpg"],
+        "img": ["https://media.istockphoto.com/photos/antique-sandglass-or-hourglass-isolated-on-white-picture-id1053491018?k=20&m=1053491018&s=170667a&w=0&h=Rm-FpaVH5faF831lUE3g9Myeq_9gvsqtHXS4jvDEk2M=","https://example.com/ampulheta-2.jpg","https://example.com/ampulheta-3.jpg"],
         "funcionalidades": ["Medir o tempo.","Decoração histórica.","Símbolo de medição tradicional."]
     },
     {

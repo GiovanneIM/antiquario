@@ -3,46 +3,42 @@
 import "./card.css";
 import "@/app/globals.css";
 
-export default function Card({id, nome, img, preco }) {
+export default function Card({ id, nome, img, preco }) {
   // cria um ID único pro modal (por exemplo, baseado no nome)
   const modalId = `modal-${nome.replace(/\s+/g, "-").toLowerCase()}`;
 
   return (
     <>
-      <div className="card-prod">
-        <div className="col-12 d-flex justify-content-center p-2">
-          <div className="card-prod-img">
-            <a href="">
-              <img src={img} alt={nome} />
-            </a>
-          </div>
-        </div>
-
-        <div className="p-2">
-          <div className="card-prod-nome">
-            <a href="">{nome}</a>
+      <div className="col-12 col-sm-6 col-lg-3 p-2">
+        <div className="card-prod">
+          <div className="col-12 d-flex justify-content-center p-2">
+            <div className="col-12 card-prod-img">
+              <a href="">
+                <img src={img} alt={nome} />
+              </a>
+            </div>
           </div>
 
-          <div className="card-prod-preco fs-3">R${preco}</div>
+          <div className="p-2">
+            {/* Nome */}
+            <div className="card-prod-nome text-center">
+              <a href="">{nome}</a>
+            </div>
 
-          <div className="card-prod-div_botoes pt-3">
-            {/* Botão que abre o modal */}
-            <button
-              type="button"
-              className="btn card-prod-btn"
-              onClick={() => {window.location.href = `/produto/${id}`}}
-            >
-              Ver Produto
-            </button>
+            {/* Preço */}
+            <div className="card-prod-preco fs-3">R${preco}</div>
 
-            <button
-              type="button"
-              className="btn card-prod-btn"
-              data-bs-toggle="modal"
-              data-bs-target={`#${modalId}`}
-            >
-              Carrinho
-            </button>
+            {/* Botões */}
+            <div className="card-prod-div_botoes pt-3">
+              {/* Botão para a página do produto */}
+              <button
+                type="button"
+                className="btn card-prod-btn"
+                onClick={() => { window.location.href = `/produto/${id}` }}
+              >
+                Ver Produto
+              </button>
+            </div>
           </div>
         </div>
       </div>
