@@ -1,41 +1,7 @@
-.conteiner{ 
-    justify-content: "center";
-    display: "flex";
-    padding-top: "2rem" ;
-}
-
-.colunas{ 
-    width: "52%";
-}
-
-.conteiner-per{ 
-    flex-wrap: wrap;
-    justify-content: "center"; 
-}
-
-.accordion{ 
-    width: "52%";
-}
-
-.main{ 
-    padding-bottom: "5rem"; 
-}
-
-.conteiner{ 
-    justify-content: "center"; 
-    display: "flex";
-}
-
-.colunasContato{
-    width: "50%"; 
-}
-
-
-
-.containerSobreNos{
+/* .containerSobreNos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 1rem;
     padding-right: 1rem;
-}
+} */

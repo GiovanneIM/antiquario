@@ -29,16 +29,6 @@ export default function Header() {
                                     Contato
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" className="nav-link px-2 text-white">
-                                    FAQs
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="nav-link px-2 text-white">
-                                    About
-                                </a>
-                            </li>
                         </ul>
                     </div>
 
