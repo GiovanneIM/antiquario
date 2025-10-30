@@ -64,7 +64,7 @@ export default function Home() {
                     <div className="col">
                         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{ backgroundImage: 'url("/img/taca.jpg")' }}>
                             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Elegância cristalina para ocasiões especiais</h3>
                                 <ul className="d-flex list-unstyled mt-auto">
                                     <li className="me-auto">
                                         <img src="/img/taca.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white" />
@@ -77,7 +77,7 @@ export default function Home() {
                     <div className="col">
                         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{ backgroundImage: 'url("/img/vasogrego.jpg")' }}>
                             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Beleza e história em cada detalhe</h3>
                                 <ul className="d-flex list-unstyled mt-auto">
                                     <li className="me-auto">
                                         <img src="/img/vasogrego.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white" />
@@ -90,7 +90,7 @@ export default function Home() {
                     <div className="col">
                         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{ backgroundImage: 'url("/img/vitrola.jpg")' }}>
                             <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">O charme do passado em música e estilo</h3>
                                 <ul className="d-flex list-unstyled mt-auto">
                                     <li className="me-auto">
                                         <img src="/img/vitrola.jpg" alt="Bootstrap" width={32} height={32} className="rounded-circle border border-white" />

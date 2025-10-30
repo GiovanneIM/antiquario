@@ -1,0 +1,43 @@
+.quantity-input{
+    width: 60px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    background-color: #fff;
+    color: black;
+}
+
+.quantity-btn{
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: #f3f4f6;
+    border: none;
+    transition: all 0.2s;
+    color: black;
+}
+
+.product-card{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.summary-card{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+.addCarrinho{
+    background-color: #fff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh !important;
+}

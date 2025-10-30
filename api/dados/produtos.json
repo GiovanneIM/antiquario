@@ -197,7 +197,7 @@
         "descricao": "Ampulheta do século XVIII, em vidro e madeira, utilizada para medir tempo em atividades diárias ou religiosas.",
         "preco": 700.00,
         "estado": ["Bom estado","Vidro intacto","Areia fluindo normalmente"],
-        "img": ["https://media.istockphoto.com/photos/antique-sandglass-or-hourglass-isolated-on-white-picture-id1053491018?k=20&m=1053491018&s=170667a&w=0&h=Rm-FpaVH5faF831lUE3g9Myeq_9gvsqtHXS4jvDEk2M=","https://example.com/ampulheta-2.jpg","https://example.com/ampulheta-3.jpg"],
+        "img": ["https://media.istockphoto.com/photos/antique-sandglass-or-hourglass-isolated-on-white-picture-id1053491018?k=20&m=1053491018&s=170667a&w=0&h=Rm-FpaVH5faF831lUE3g9Myeq_9gvsqtHXS4jvDEk2M=","https://tse4.mm.bing.net/th/id/OIP.vz2Dk0YA02m-zN5FXqmcIAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3","https://tse1.mm.bing.net/th/id/OIP.39_17SHZRNEBNEIDIr818QHaHa?w=1920&h=1920&rs=1&pid=ImgDetMain&o=7&rm=3"],
         "funcionalidades": ["Medir o tempo.","Decoração histórica.","Símbolo de medição tradicional."]
     },
     {
@@ -207,7 +207,7 @@
         "descricao": "Espada europeia do século XV, ideal para colecionadores e entusiastas da história militar.",
         "preco": 4000.00,
         "estado": ["Moderado","Necessita restauração","Lâmina intacta"],
-        "img": ["https://example.com/espada-1.jpg","https://example.com/espada-2.jpg","https://example.com/espada-3.jpg"],
+        "img": ["https://tse3.mm.bing.net/th/id/OIP.1SSvFPFozRIYimvum2Ej-gHaGa?w=640&h=554&rs=1&pid=ImgDetMain&o=7&rm=3","https://static.vecteezy.com/system/resources/previews/045/909/487/non_2x/ornate-medieval-sword-with-gold-hilt-cut-out-stock-png.png","https://static.vecteezy.com/system/resources/previews/029/748/989/non_2x/medieval-war-sword-soldier-sword-fighting-sword-no-background-print-on-demand-merchandise-ai-generative-png.png"],
         "funcionalidades": ["Coleção histórica.","Decoração temática.","Estudo de armas medievais."]
     },
     {
@@ -217,7 +217,7 @@
         "descricao": "Livro manuscrito do século XVII, escrito à mão em pergaminho. Peça valiosa para historiadores e colecionadores.",
         "preco": 6000.00,
         "estado": ["Bom estado","Ligeiro amarelamento natural","Capa preservada"],
-        "img": ["https://example.com/livro-1.jpg","https://example.com/livro-2.jpg","https://example.com/livro-3.jpg"],
+        "img": ["https://tse2.mm.bing.net/th/id/OIP.pyH2PReKIYF7d7Bqc3-W-gHaFB?w=2000&h=1357&rs=1&pid=ImgDetMain&o=7&rm=3","https://thumbs.dreamstime.com/b/livro-antigo-da-vintage-isolado-em-fundo-branco-capa-dura-248949739.jpg","https://img.freepik.com/fotos-premium/livro-arabe-aberto-antigo-sobre-um-fundo-branco-manuscritos-e-textos-arabes-antigos_508835-6664.jpg"],
         "funcionalidades": ["Estudo histórico e literário.","Colecionável valioso.","Decoração sofisticada."]
     },
     {
@@ -227,7 +227,7 @@
         "descricao": "Conjunto de chá do século XIX, em porcelana europeia, com detalhes pintados à mão.",
         "preco": 1800.00,
         "estado": ["Ótimo estado","Sem trincas","Pintura preservada"],
-        "img": ["https://example.com/cha-1.jpg","https://example.com/cha-2.jpg","https://example.com/cha-3.jpg"],
+        "img": ["https://tse4.mm.bing.net/th/id/OIP.b3NOLYGQoapMx3nfI-uEswHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3","https://http2.mlstatic.com/D_NQ_NP_742057-MLU78668358784_092024-O.webp","https://http2.mlstatic.com/D_NQ_NP_761288-MLM32293124893_092019-O.webp"],
         "funcionalidades": ["Servir bebidas quentes.","Decoração e colecionismo.","Símbolo de tradição."]
     },
     {
@@ -237,7 +237,7 @@
         "descricao": "Máscara tradicional de Veneza, do século XVIII, usada em bailes de carnaval e festas históricas.",
         "preco": 1200.00,
         "estado": ["Bom estado","Detalhes pintados preservados","Sem danos estruturais"],
-        "img": ["https://example.com/mascara-1.jpg","https://example.com/mascara-2.jpg","https://example.com/mascara-3.jpg"],
+        "img": ["https://tse4.mm.bing.net/th/id/OIP.DaVHsIu2eTMrwRchD4xejQHaJP?w=590&h=736&rs=1&pid=ImgDetMain&o=7&rm=3","https://th.bing.com/th/id/OIP.9JyV5DB9_O-FCLqPGq1JmQHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3","https://static.vecteezy.com/system/resources/previews/044/279/341/non_2x/golden-opera-mask-on-isolated-transparent-background-png.png"],
         "funcionalidades": ["Decoração temática.","Colecionável histórico.","Peça de estudo cultural."]
     },
     {
@@ -247,7 +247,7 @@
         "descricao": "Cálice de prata do século XV, usado em cerimônias religiosas e festas nobres.",
         "preco": 2500.00,
         "estado": ["Bom estado","Leve desgaste natural","Prata polida"],
-        "img": ["https://example.com/calice-1.jpg","https://example.com/calice-2.jpg","https://example.com/calice-3.jpg"],
+        "img": ["https://tse1.mm.bing.net/th/id/OIP.4d5u42SEHjz_7dWm6isJcwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3","https://img.freepik.com/fotos-premium/calice-antigo-isolado-em-fundo-branco_1162196-9844.jpg","https://img.freepik.com/fotos-premium/calice-antigo-isolado-em-fundo-branco_1162196-9929.jpg"],
         "funcionalidades": ["Uso cerimonial.","Decoração histórica.","Colecionável."]
     },
     {
@@ -257,7 +257,7 @@
         "descricao": "Flauta de madeira do século XVII, ideal para músicos de música antiga e colecionadores.",
         "preco": 3200.00,
         "estado": ["Restaurada","Funcional","Madeira conservada"],
-        "img": ["https://example.com/flauta-1.jpg","https://example.com/flauta-2.jpg","https://example.com/flauta-3.jpg"],
+        "img": ["https://tse1.mm.bing.net/th/id/OIP.KP7RRCCeZ_TmYIslereGugHaEg?rs=1&pid=ImgDetMain&o=7&rm=3","https://tse2.mm.bing.net/th/id/OIP.qNr71BlAL613Wk9MD7tk9wHaE-?w=800&h=537&rs=1&pid=ImgDetMain&o=7&rm=3","https://tse4.mm.bing.net/th/id/OIP.ChOSO9XcNkT1dOmbIvtsCwHaFN?w=900&h=634&rs=1&pid=ImgDetMain&o=7&rm=3"],
         "funcionalidades": ["Execução musical barroca.","Decoração temática.","Colecionável histórico."]
     },
     {
@@ -267,7 +267,7 @@
         "descricao": "Espelho com moldura dourada do século XIX, ideal para ambientes clássicos e colecionadores.",
         "preco": 2000.00,
         "estado": ["Bom estado","Vidro sem rachaduras","Moldura preservada"],
-        "img": ["https://example.com/espelho-1.jpg","https://example.com/espelho-2.jpg","https://example.com/espelho-3.jpg"],
+        "img": ["https://tse4.mm.bing.net/th/id/OIP.IALpM_x_z5Uz9Xh3Tp3mwwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3","https://tse4.mm.bing.net/th/id/OIP.gKfZ7BxBdCxSr3D2krxwhwHaHa?w=2000&h=2000&rs=1&pid=ImgDetMain&o=7&rm=3","https://tse3.mm.bing.net/th/id/OIP.U77UMm29gp1fyrx7nTsZsAHaHa?w=626&h=626&rs=1&pid=ImgDetMain&o=7&rm=3"],
         "funcionalidades": ["Decoração de interiores.","Peça colecionável.","Estudo de arte e design clássico."]
     },
     {
@@ -277,27 +277,7 @@
         "descricao": "Telescópio do século XIX, feito em latão, ideal para estudo astronômico histórico e colecionadores.",
         "preco": 4200.00,
         "estado": ["Bom estado","Óptica funcional","Latão bem preservado"],
-        "img": ["https://example.com/telescopio-1.jpg","https://example.com/telescopio-2.jpg","https://example.com/telescopio-3.jpg"],
+        "img": ["https://tse1.mm.bing.net/th/id/OIP.tV1tD0__oKmp-mXoV-T25wHaEp?rs=1&pid=ImgDetMain&o=7&rm=3","https://tse1.mm.bing.net/th/id/OIP.J5818A64NujOHYvCpXzQwAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3","https://tse3.mm.bing.net/th/id/OIP.S3olmy3w7H5Mfi4dJ3lXBgHaE7?w=626&h=417&rs=1&pid=ImgDetMain&o=7&rm=3"],
         "funcionalidades": ["Observação astronômica.","Peça de coleção histórica.","Decoração temática."]
-    },
-    {
-        "id": 29,
-        "nome": "Tábua de xadrez antiga",
-        "categoria": "Decoração",
-        "descricao": "Tabuleiro de xadrez do século XIX, em madeira entalhada, ideal para colecionadores e jogadores clássicos.",
-        "preco": 1500.00,
-        "estado": ["Bom estado","Peças completas","Madeira preservada"],
-        "img": ["https://example.com/xadrez-1.jpg","https://example.com/xadrez-2.jpg","https://example.com/xadrez-3.jpg"],
-        "funcionalidades": ["Jogo de estratégia histórico.","Decoração temática.","Colecionável."]
-    },
-    {
-        "id": 30,
-        "nome": "Quadro impressionista",
-        "categoria": "Decoração",
-        "descricao": "Pintura impressionista do século XIX, óleo sobre tela, ideal para colecionadores de arte clássica.",
-        "preco": 10000.00,
-        "estado": ["Ótimo estado","Tela e pintura preservadas","Assinatura do artista visível"],
-        "img": ["https://example.com/quadro-1.jpg","https://example.com/quadro-2.jpg","https://example.com/quadro-3.jpg"],
-        "funcionalidades": ["Decoração artística.","Colecionável valioso.","Estudo de técnicas impressionistas."]
     }
 ]
