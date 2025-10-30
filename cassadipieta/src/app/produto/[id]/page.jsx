@@ -15,8 +15,9 @@ export default function Produto() {
     useEffect(() => {
         async function carregarProduto() {
             try {
-                const res = await fetch(`http://localhost:4000/produtos/${id}`);
+                const res = await fetch(`http://localhost:4000/produtos/${Number(id)}`);
                 const data = await res.json();
+
                 setProduto(data.produto);
                 setImgPrincipal(data.produto.img[0]);
             } catch (error) {
@@ -24,7 +25,7 @@ export default function Produto() {
             }
         }
 
-        if (id) carregarProduto();
+        if (!isNaN(Number(id))) carregarProduto();
     }, [id]);
 
     return (<>
@@ -46,7 +47,13 @@ export default function Produto() {
                         {/* Miniaturas */}
                         <div className="d-flex justify-content-start flex-wrap gap-3 col-12">
                             {produto.img.map((img, index) => {
-                                return <div className="bg-white border shadow-sm rounded overflow-hidden" style={{ width: "5rem", height: "5rem" }} key={index} onClick={setImgPrincipal(img)}>
+                                return <div
+                                    className="bg-white border shadow-sm rounded overflow-hidden"
+                                    style={{ width: "5rem", height: "5rem" }}
+                                    key={index}
+                                    onClick={() => setImgPrincipal(img)}
+                                    >
+
                                     <img src={img} className="img-completa" />
                                 </div>
                             })}
@@ -65,7 +72,7 @@ export default function Produto() {
                         <div className="mb-3">
                             <span className="h4 me-2">R${produto.preco.toFixed(2).replace('.', ',')}</span>
                             <span className="text-muted">
-                                <s>{produto.preco_wdisc.toFixed(2).replace('.', ',')}</s>
+                                {produto.preco_wdisc && <s>{produto.preco_wdisc.toFixed(2).replace('.', ',')}</s>}
                             </span>
                         </div>
 

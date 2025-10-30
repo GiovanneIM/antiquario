@@ -1,13 +1,9 @@
 import Card from '@/components/Card'
-// import produtos from '../produtos.js'
 
-import fs from 'fs';
-import path from 'path';
-
-export default function prod() {
-    const filePath = path.join(process.cwd(), 'src/data/produtos.json');
-    const data = fs.readFileSync(filePath, 'utf-8');
-    const produtos = JSON.parse(data);
+export default async function prod() {
+    const res = await fetch('http://localhost:4000/produtos')
+    const data = await res.json()
+    const produtos = data.produtos
 
 
     return (
