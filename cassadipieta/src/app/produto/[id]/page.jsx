@@ -30,7 +30,7 @@ export default function Produto() {
 
     return (<>
         {produto &&
-            <div className="container">
+            <div className="container py-4">
                 <div className="d-md-flex col-12 bg-white rounded bordern shadow-sm">
                     {/* Imagens do produto */}
                     <div className="col-md-5 p-4 d-flex flex-column gap-3">
@@ -45,7 +45,7 @@ export default function Produto() {
                         </div>
 
                         {/* Miniaturas */}
-                        <div className="d-flex justify-content-start flex-wrap gap-3 col-12">
+                        <div className="d-flex justify-content-center flex-wrap gap-3 col-12">
                             {produto.img.map((img, index) => {
                                 return <div
                                     className="bg-white border shadow-sm rounded overflow-hidden"
