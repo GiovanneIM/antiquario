@@ -15,7 +15,7 @@
         "categoria": "Louças e porcelana",
         "descricao": "Xicara Barroca, datada por volta do seculo XVIII, encontrada em de Ouro Preto, Minas Gerais. Item valioso para quem ama arte e deseja saber mais sobre a arte brasileira",
         "preco": 500.00,
-        "estado": ["Execelente; Não possui nenhuma marca de uso, extremamente conservado"],
+        "estado": ["Execelente", "Não possui nenhuma marca de uso", "extremamente conservado"],
         "img": ["https://http2.mlstatic.com/D_Q_NP_2X_901631-MLB92600377178_092025-E-xicara-cafezinho-limoges-brasil-imperio-baro-do-ribeiro.webp"],
         "funcionalidades": []
     },
@@ -25,7 +25,7 @@
         "categoria": "Ferramentas",
         "descricao": "katana japonesa, trazida pelos portugues durante o seculo XVI, durante as expedições para a Asia, suporte incluso porém não é de época. Item que desperta a curiosidade para amantes da historia",
         "preco": 2000.00,
-        "estado": ["Rústico; apresenta marcas de uso e época, mantindo sem restauração para preservar os sinais de tempo."],
+        "estado": ["Rústico", "Apresenta marcas de uso e época", "Mantindo sem restauração para preservar os sinais de tempo."],
         "img": ["https://http2.mlstatic.com/D_NQ_NP_916036-MLB90663165117_082025-O-espada-decorativa-japonesa-katana-preta-100-cm-c-suporte.webp"],
         "funcionalidades": []
     },
