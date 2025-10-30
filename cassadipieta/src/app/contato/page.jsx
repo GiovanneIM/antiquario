@@ -228,7 +228,7 @@ export default function Home() {
                 <div className="col-12 col-lg-10" >
                     <div className="row featurette py-5">
 
-                        <div className="col-md-7">
+                        <div className="col-12 col-md-7">
                             <h2 className="featurette-heading fw-normal lh-1">Sobre nós</h2>
 
                             <h2 className="featurette-heading fw-normal lh-1 mt-4">
@@ -261,8 +261,9 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="col-md-5">
-                            <img src="/img/imgAntiquario.jpg" className="img-completa" />
+                        <div className="col-12 col-md-5 overflow-hidden" style={{minHeight: '300px'}}>
+                            <img src="/img/antiquario.svg" className="d-none d-md-block h-100" />
+                            <img src="/img/antiquario.svg" className="d-md-none w-100" />
                         </div>
                     </div>
                 </div >
