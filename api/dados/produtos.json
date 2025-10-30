@@ -1,63 +1,303 @@
 [
     {
         "id": 1,
-        "nome": "Capacete do StormTrooper Glasslite",
-        "categoria": "Brinquedo",
-        "descricao": "Capacete dos Stormtrooper fabricada pela antiga Glasslite. Item extremamente raro e ideal para os maiores fãs de Star Wars",
-        "preco": 8000.00,
-        "estado": ["Muito Bom", "Apresenta poucos sinais de uso"],
-        "img": ["https://http2.mlstatic.com/D_NQ_NP_791547-MLB31203896025_062019-O.webp"],
-        "funcionalidades": []
-    },
-    {
-        "id": 2,
         "nome": "xicara Barroca",
         "categoria": "Louças e porcelana",
         "descricao": "Xicara Barroca, datada por volta do seculo XVIII, encontrada em de Ouro Preto, Minas Gerais. Item valioso para quem ama arte e deseja saber mais sobre a arte brasileira",
         "preco": 500.00,
         "estado": ["Execelente", "Não possui nenhuma marca de uso", "extremamente conservado"],
-        "img": ["https://http2.mlstatic.com/D_Q_NP_2X_901631-MLB92600377178_092025-E-xicara-cafezinho-limoges-brasil-imperio-baro-do-ribeiro.webp"],
-        "funcionalidades": []
+        "img": ["https://http2.mlstatic.com/D_Q_NP_2X_901631-MLB92600377178_092025-E-xicara-cafezinho-limoges-brasil-imperio-baro-do-ribeiro.webp","https://onegoods.com.br/wp-content/uploads/2025/03/Copa_68.png","https://onegoods.com.br/wp-content/uploads/2025/03/Copa_62.png"],
+        "funcionalidades": ["Servir bebidas quentes: Ideal para café, chá ou chocolate quente, mantendo a temperatura por mais tempo devido à espessura da cerâmica.","Valor estético e decorativo: As xícaras barrocas apresentam detalhes ornamentados, relevos e dourados, sendo também peças de decoração e colecionismo.","Símbolo de status e refinamento: Durante o período barroco, o uso dessas xícaras era associado à nobreza e à sofisticação nos rituais de café e chá."]
     },
     {
-        "id": 3,
-        "nome": "Katana",
-        "categoria": "Ferramentas",
-        "descricao": "katana japonesa, trazida pelos portugues durante o seculo XVI, durante as expedições para a Asia, suporte incluso porém não é de época. Item que desperta a curiosidade para amantes da historia",
-        "preco": 2000.00,
-        "estado": ["Rústico", "Apresenta marcas de uso e época", "Mantindo sem restauração para preservar os sinais de tempo."],
-        "img": ["https://http2.mlstatic.com/D_NQ_NP_916036-MLB90663165117_082025-O-espada-decorativa-japonesa-katana-preta-100-cm-c-suporte.webp"],
-        "funcionalidades": []
-    },
-    {
-        "id": 4,
+        "id": 2,
         "nome": "Alaúde",
         "categoria": "Música",
         "descricao": "Alaúde, um instrumento musical muito utilizado durante o período medieval, foi restaurado pelo renomado luthiere austriaco Noah A. H. Habsburgo. Item para amantes de música.",
         "preco": 3200.00,
-        "estado": ["Restaurado; restaurado para ter o funcionamento correto."],
-        "img": ["https://http2.mlstatic.com/D_Q_NP_2X_626559-MLB93868700627_102025-E.webp"],
-        "funcionalidades": []
+        "estado": ["Ótimo estado","Restaurado: restaurado para ter o funcionamento correto.","Bem conservado"],
+        "img": ["https://http2.mlstatic.com/D_Q_NP_2X_626559-MLB93868700627_102025-E.webp","https://tse2.mm.bing.net/th/id/OIP.XUb9JIH56IJWZUBFTYCMXgHaHa?w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm=3","https://tse3.mm.bing.net/th/id/OIP.kFoUc3Uf1acrqBoRiNehfQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "funcionalidades": ["Instrumento musical melódico e harmônico: Serve tanto para acompanhar vozes quanto para tocar peças instrumentais solo.","Ferramenta pedagógica: Usado para ensinar princípios de harmonia, contraponto e dedilhado histórico.","Símbolo da música cortesã e erudita europeia (séculos XV–XVII).","Versatilidade musical: Capaz de interpretar desde danças populares até obras complexas polifônicas."]
     },
     {
-        "id": 5,
+        "id": 3,
         "nome": "Maquina de costurar",
         "categoria": "Ferramentas",
         "descricao": "Maquina de costura, com cerca de 50 anos de idade. Item para quem gosta de tradicionalismo.",
         "preco": 1000.00,
         "preco_wdisc": 1500.00,
-        "estado": ["Necessita restauração", "Pode apresenta falha no funcionamento"],
+        "estado": ["Necessita restauração", "Pode apresenta falha no funcionamento","Estado de conservação moderado"],
         "img": ["https://http2.mlstatic.com/D_NQ_NP_792396-MLA92924967318_092025-O.webp","https://http2.mlstatic.com/D_NQ_NP_2X_613060-MLB86335602910_062025-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_718652-MLB82193749967_012025-F.webp","https://http2.mlstatic.com/D_NQ_NP_2X_963225-MLB82193749953_012025-F.webp"],
         "funcionalidades":["Costura: Une tecidos com diferentes tipos de pontos.","Bordado: Cria desenhos decorativos sobre o tecido.","Overloque: Refina e evita que o tecido desfie.","Ajuste de pontos: Permite controlar o tamanho e estilo da costura."]
     },
     {
-        "id": 6,
+        "id": 4,
         "nome": "Tinteiro",
         "categoria": "Ferramentas",
         "descricao": "Tinteiro antigo, com design europeu. Item para quem busca o tradicional e conservado.",
         "preco": 500.00,
-        "estado": ["Execelente; Não possui nenhuma marca de uso, extremamente conservado"],
-        "img": ["https://http2.mlstatic.com/D_NQ_NP_745946-CBT53962763523_022023-O.webp"],
-        "funcionalidades": []
+        "estado": ["Execelente","Não possui nenhuma marca de desgaste","Extremamente conservado"],
+        "img": ["https://http2.mlstatic.com/D_NQ_NP_745946-CBT53962763523_022023-O.webp","https://http2.mlstatic.com/D_NQ_NP_856049-MLB77563645417_072024-O.webp","https://media.istockphoto.com/id/1357099387/es/foto/pluma-y-botella-de-tinta-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=9UAjWP_7SGuXuLzL8kDdHsx0N1tatw3tECSLFZuHGXk="],
+        "funcionalidades": ["Facilitar a escrita ao manter uma pequena quantidade de tinta acessível e pronta para uso.","Instrumento de estudo e trabalho — muito usado por escribas, estudantes e artistas.","Símbolo de elegância e erudição — associado a poetas, escritores e filósofos.","Elemento de design retrô que remete à escrita tradicional e ao valor da palavra escrita à mão."]
+    },
+    {
+        "id": 5,
+        "nome": "Busto",
+        "categoria": "Decoração",
+        "descricao": "O busto apresenta-se razoavelmente preservado, com as formas principais ainda reconhecíveis, embora mostre sinais evidentes da passagem do tempo. A estrutura facial mantém traços expressivos.",
+        "preco": 3600.0,
+        "estado": ["Ok","Possui míni defeitos", "Mal conservado"],
+        "img": ["https://img.freepik.com/fotos-premium/um-busto-do-rosto-de-uma-mulher-esta-sobre-um-fundo-branco_873925-10331.jpg","https://boxloja-std-cdn-r2.minhaboxloja.com/lojas/a4ve/produtos/6ad40872-92dd-467c-bf37-da6877cb3fec_t260x260.jpg","https://tse4.mm.bing.net/th/id/OIP.MpbsB51qR4ZPrWovp6Qs9gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "funcionalidades": ["Representação estética de figuras humanas, destacando traços físicos e expressões.","Exercício de técnica escultórica, permitindo ao artista estudar proporções e detalhes anatômicos.","Material de estudo para estudantes de arte, história e arqueologia.","Homenagem e reverência a figuras notáveis, expostas em praças, museus e instituições."]
+    },
+    {
+        "id": 6,
+        "nome": "Relógio de bolso",
+        "categoria": "Relógios",
+        "descricao": "Relógio de bolso do século XIX, com caixa em ouro e mostrador esmaltado. Ideal para colecionadores e amantes de relógios antigos.",
+        "preco": 4500.00,
+        "estado": ["Ótimo estado","Funcionamento preciso","Peça extremamente bem conservada"],
+        "img": ["https://tse4.mm.bing.net/th/id/OIP.luXo77Dg2gopp6hcTrn4TwHaHa?w=626&h=626&rs=1&pid=ImgDetMain&o=7&rm=3","https://tse3.mm.bing.net/th/id/OIP.8eyzb8X0ha7VL5OuRFxp8wHaHa?w=2000&h=2000&rs=1&pid=ImgDetMain&o=7&rm=3","https://tse4.mm.bing.net/th/id/OIP.5-Zq0koEY4wwy7dgCJ9iKAHaE6?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "funcionalidades": ["Marcação precisa de horas e minutos.","Peça decorativa e colecionável.","Símbolo de status do século XIX."]
+    },
+    {
+        "id": 7,
+        "nome": "Candelabro de bronze",
+        "categoria": "Decoração",
+        "descricao": "Candelabro de bronze do século XVIII, com detalhes ornamentais barrocos. Ideal para decoração clássica ou histórica.",
+        "preco": 1200.00,
+        "estado": ["Bom estado","Leve desgaste do tempo","Estrutura firme e conservada"],
+        "img": ["https://tse1.mm.bing.net/th/id/OIP.SgRANHw1qGXbwR3DLs4qTQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3","https://tse3.mm.bing.net/th/id/OIP.q7QXAi3FIDqsNR-SNA1RtAHaHa?w=1080&h=1080&rs=1&pid=ImgDetMain&o=7&rm=3","https://i.etsystatic.com/13648412/c/2777/2777/83/82/il/ec9b5a/4551389896/il_600x600.4551389896_olmm.jpg"],
+        "funcionalidades": ["Suporte para velas.","Peça decorativa para ambiente clássico.","Símbolo de requinte e tradição."]
+    },
+    {
+        "id": 8,
+        "nome": "Globo terrestre antigo",
+        "categoria": "Decoração",
+        "descricao": "Globo terrestre do século XIX, feito em madeira e papel antigo. Item de estudo e decoração para amantes de geografia histórica.",
+        "preco": 2000.00,
+        "estado": ["Ótimo estado","Mapas legíveis","Base em madeira intacta"],
+        "img": ["https://example.com/globo-1.jpg","https://example.com/globo-2.jpg","https://example.com/globo-3.jpg"],
+        "funcionalidades": ["Estudo de geografia antiga.","Decoração histórica.","Peça educativa e colecionável."]
+    },
+    {
+        "id": 9,
+        "nome": "Vitrola antiga",
+        "categoria": "Música",
+        "descricao": "Vitrola do início do século XX, totalmente restaurada, ideal para reproduzir discos de 78 rpm e decorar ambientes vintage.",
+        "preco": 3500.00,
+        "estado": ["Restaurada","Funciona perfeitamente","Conservada esteticamente"],
+        "img": ["https://example.com/vitrola-1.jpg","https://example.com/vitrola-2.jpg","https://example.com/vitrola-3.jpg"],
+        "funcionalidades": ["Reproduz discos antigos.","Peça decorativa vintage.","Colecionável para amantes de música."]
+    },
+    {
+        "id": 10,
+        "nome": "Lanterna a óleo",
+        "categoria": "Ferramentas",
+        "descricao": "Lanterna a óleo do século XIX, de metal e vidro, usada como iluminação portátil antes da eletricidade.",
+        "preco": 400.00,
+        "estado": ["Bom estado","Funcional com manutenção","Conservada externamente"],
+        "img": ["https://example.com/lanterna-1.jpg","https://example.com/lanterna-2.jpg","https://example.com/lanterna-3.jpg"],
+        "funcionalidades": ["Iluminação portátil.","Peça decorativa.","Exemplo de tecnologia pré-elétrica."]
+    },
+    {
+        "id": 11,
+        "nome": "Mapa antigo",
+        "categoria": "Decoração",
+        "descricao": "Mapa do século XVIII impresso em papel antigo, ideal para estudo histórico ou decoração temática.",
+        "preco": 900.00,
+        "estado": ["Bom estado","Leve amarelamento natural","Sem rasgos significativos"],
+        "img": ["https://example.com/mapa-1.jpg","https://example.com/mapa-2.jpg","https://example.com/mapa-3.jpg"],
+        "funcionalidades": ["Estudo histórico e geográfico.","Decoração temática.","Peça colecionável."]
+    },
+    {
+        "id": 12,
+        "nome": "Teclado de piano antigo",
+        "categoria": "Música",
+        "descricao": "Teclado de piano do século XIX, ideal para restauração ou para quem coleciona instrumentos clássicos.",
+        "preco": 2800.00,
+        "estado": ["Moderado","Necessita ajustes","Peças de madeira intactas"],
+        "img": ["https://example.com/piano-1.jpg","https://example.com/piano-2.jpg","https://example.com/piano-3.jpg"],
+        "funcionalidades": ["Tocar peças clássicas.","Decoração musical.","Colecionável histórico."]
+    },
+    {
+        "id": 13,
+        "nome": "Prato de porcelana chinesa",
+        "categoria": "Louças e porcelana",
+        "descricao": "Prato chinês do século XIX, pintado à mão com detalhes florais. Ideal para colecionadores de porcelana oriental.",
+        "preco": 600.00,
+        "estado": ["Ótimo estado","Sem trincas","Detalhes da pintura preservados"],
+        "img": ["https://example.com/prato-1.jpg","https://example.com/prato-2.jpg","https://example.com/prato-3.jpg"],
+        "funcionalidades": ["Decoração de ambientes.","Peça de coleção.","Símbolo da arte oriental."]
+    },
+    {
+        "id": 14,
+        "nome": "Cofre antigo",
+        "categoria": "Ferramentas",
+        "descricao": "Cofre de metal do século XIX, com mecanismo de trava manual. Ideal para colecionadores de objetos históricos.",
+        "preco": 1500.00,
+        "estado": ["Moderado","Pode necessitar lubrificação","Estrutura metálica íntegra"],
+        "img": ["https://example.com/cofre-1.jpg","https://example.com/cofre-2.jpg","https://example.com/cofre-3.jpg"],
+        "funcionalidades": ["Guardar objetos de valor.","Peça decorativa.","Exemplo de segurança histórica."]
+    },
+    {
+        "id": 15,
+        "nome": "Binóculo antigo",
+        "categoria": "Ferramentas",
+        "descricao": "Binóculo do início do século XX, em latão e couro, ideal para colecionadores e estudiosos de óptica histórica.",
+        "preco": 800.00,
+        "estado": ["Bom estado","Lentes limpas e funcionais","Estrutura preservada"],
+        "img": ["https://example.com/binoculo-1.jpg","https://example.com/binoculo-2.jpg","https://example.com/binoculo-3.jpg"],
+        "funcionalidades": ["Observação de longa distância.","Colecionável histórico.","Peça de estudo óptico."]
+    },
+    {
+        "id": 16,
+        "nome": "Máquina de escrever",
+        "categoria": "Ferramentas",
+        "descricao": "Máquina de escrever dos anos 1920, totalmente funcional e restaurada, ideal para amantes da escrita clássica.",
+        "preco": 1800.00,
+        "estado": ["Restaurada","Funciona perfeitamente","Esteticamente bem preservada"],
+        "img": ["https://example.com/typewriter-1.jpg","https://example.com/typewriter-2.jpg","https://example.com/typewriter-3.jpg"],
+        "funcionalidades": ["Escrita manual clássica.","Decoração vintage.","Ferramenta de estudo histórico."]
+    },
+    {
+        "id": 17,
+        "nome": "Luminária Tiffany",
+        "categoria": "Decoração",
+        "descricao": "Luminária Tiffany original, do início do século XX, com vitrais coloridos e base em bronze.",
+        "preco": 7500.00,
+        "estado": ["Ótimo estado","Vitrais intactos","Base de bronze sem danos"],
+        "img": ["https://example.com/tiffany-1.jpg","https://example.com/tiffany-2.jpg","https://example.com/tiffany-3.jpg"],
+        "funcionalidades": ["Iluminação decorativa.","Peça de coleção de arte.","Símbolo de design clássico."]
+    },
+    {
+        "id": 18,
+        "nome": "Saxofone vintage",
+        "categoria": "Música",
+        "descricao": "Saxofone dos anos 1940, completamente restaurado, ideal para músicos e colecionadores.",
+        "preco": 6200.00,
+        "estado": ["Restaurado","Funcional e afinado","Conservado esteticamente"],
+        "img": ["https://example.com/sax-1.jpg","https://example.com/sax-2.jpg","https://example.com/sax-3.jpg"],
+        "funcionalidades": ["Execução musical profissional.","Colecionável histórico.","Decoração temática musical."]
+    },
+    {
+        "id": 19,
+        "nome": "Estatueta egípcia",
+        "categoria": "Decoração",
+        "descricao": "Estatueta em pedra representando deidade egípcia, com séculos de idade, perfeita para colecionadores e estudiosos.",
+        "preco": 5000.00,
+        "estado": ["Bom estado","Alguns sinais de desgaste natural","Detalhes da escultura preservados"],
+        "img": ["https://example.com/estatueta-1.jpg","https://example.com/estatueta-2.jpg","https://example.com/estatueta-3.jpg"],
+        "funcionalidades": ["Peça de estudo arqueológico.","Decoração temática.","Colecionável histórico."]
+    },
+    {
+        "id": 20,
+        "nome": "Ampulheta antiga",
+        "categoria": "Ferramentas",
+        "descricao": "Ampulheta do século XVIII, em vidro e madeira, utilizada para medir tempo em atividades diárias ou religiosas.",
+        "preco": 700.00,
+        "estado": ["Bom estado","Vidro intacto","Areia fluindo normalmente"],
+        "img": ["https://example.com/ampulheta-1.jpg","https://example.com/ampulheta-2.jpg","https://example.com/ampulheta-3.jpg"],
+        "funcionalidades": ["Medir o tempo.","Decoração histórica.","Símbolo de medição tradicional."]
+    },
+    {
+        "id": 21,
+        "nome": "Espada medieval",
+        "categoria": "Ferramentas",
+        "descricao": "Espada europeia do século XV, ideal para colecionadores e entusiastas da história militar.",
+        "preco": 4000.00,
+        "estado": ["Moderado","Necessita restauração","Lâmina intacta"],
+        "img": ["https://example.com/espada-1.jpg","https://example.com/espada-2.jpg","https://example.com/espada-3.jpg"],
+        "funcionalidades": ["Coleção histórica.","Decoração temática.","Estudo de armas medievais."]
+    },
+    {
+        "id": 22,
+        "nome": "Livro antigo manuscrito",
+        "categoria": "Livros",
+        "descricao": "Livro manuscrito do século XVII, escrito à mão em pergaminho. Peça valiosa para historiadores e colecionadores.",
+        "preco": 6000.00,
+        "estado": ["Bom estado","Ligeiro amarelamento natural","Capa preservada"],
+        "img": ["https://example.com/livro-1.jpg","https://example.com/livro-2.jpg","https://example.com/livro-3.jpg"],
+        "funcionalidades": ["Estudo histórico e literário.","Colecionável valioso.","Decoração sofisticada."]
+    },
+    {
+        "id": 23,
+        "nome": "Jogo de chá antigo",
+        "categoria": "Louças e porcelana",
+        "descricao": "Conjunto de chá do século XIX, em porcelana europeia, com detalhes pintados à mão.",
+        "preco": 1800.00,
+        "estado": ["Ótimo estado","Sem trincas","Pintura preservada"],
+        "img": ["https://example.com/cha-1.jpg","https://example.com/cha-2.jpg","https://example.com/cha-3.jpg"],
+        "funcionalidades": ["Servir bebidas quentes.","Decoração e colecionismo.","Símbolo de tradição."]
+    },
+    {
+        "id": 24,
+        "nome": "Máscara veneziana",
+        "categoria": "Decoração",
+        "descricao": "Máscara tradicional de Veneza, do século XVIII, usada em bailes de carnaval e festas históricas.",
+        "preco": 1200.00,
+        "estado": ["Bom estado","Detalhes pintados preservados","Sem danos estruturais"],
+        "img": ["https://example.com/mascara-1.jpg","https://example.com/mascara-2.jpg","https://example.com/mascara-3.jpg"],
+        "funcionalidades": ["Decoração temática.","Colecionável histórico.","Peça de estudo cultural."]
+    },
+    {
+        "id": 25,
+        "nome": "Cálice medieval",
+        "categoria": "Louças e porcelana",
+        "descricao": "Cálice de prata do século XV, usado em cerimônias religiosas e festas nobres.",
+        "preco": 2500.00,
+        "estado": ["Bom estado","Leve desgaste natural","Prata polida"],
+        "img": ["https://example.com/calice-1.jpg","https://example.com/calice-2.jpg","https://example.com/calice-3.jpg"],
+        "funcionalidades": ["Uso cerimonial.","Decoração histórica.","Colecionável."]
+    },
+    {
+        "id": 26,
+        "nome": "Flauta barroca",
+        "categoria": "Música",
+        "descricao": "Flauta de madeira do século XVII, ideal para músicos de música antiga e colecionadores.",
+        "preco": 3200.00,
+        "estado": ["Restaurada","Funcional","Madeira conservada"],
+        "img": ["https://example.com/flauta-1.jpg","https://example.com/flauta-2.jpg","https://example.com/flauta-3.jpg"],
+        "funcionalidades": ["Execução musical barroca.","Decoração temática.","Colecionável histórico."]
+    },
+    {
+        "id": 27,
+        "nome": "Espelho antigo",
+        "categoria": "Decoração",
+        "descricao": "Espelho com moldura dourada do século XIX, ideal para ambientes clássicos e colecionadores.",
+        "preco": 2000.00,
+        "estado": ["Bom estado","Vidro sem rachaduras","Moldura preservada"],
+        "img": ["https://example.com/espelho-1.jpg","https://example.com/espelho-2.jpg","https://example.com/espelho-3.jpg"],
+        "funcionalidades": ["Decoração de interiores.","Peça colecionável.","Estudo de arte e design clássico."]
+    },
+    {
+        "id": 28,
+        "nome": "Telescópio antigo",
+        "categoria": "Ferramentas",
+        "descricao": "Telescópio do século XIX, feito em latão, ideal para estudo astronômico histórico e colecionadores.",
+        "preco": 4200.00,
+        "estado": ["Bom estado","Óptica funcional","Latão bem preservado"],
+        "img": ["https://example.com/telescopio-1.jpg","https://example.com/telescopio-2.jpg","https://example.com/telescopio-3.jpg"],
+        "funcionalidades": ["Observação astronômica.","Peça de coleção histórica.","Decoração temática."]
+    },
+    {
+        "id": 29,
+        "nome": "Tábua de xadrez antiga",
+        "categoria": "Decoração",
+        "descricao": "Tabuleiro de xadrez do século XIX, em madeira entalhada, ideal para colecionadores e jogadores clássicos.",
+        "preco": 1500.00,
+        "estado": ["Bom estado","Peças completas","Madeira preservada"],
+        "img": ["https://example.com/xadrez-1.jpg","https://example.com/xadrez-2.jpg","https://example.com/xadrez-3.jpg"],
+        "funcionalidades": ["Jogo de estratégia histórico.","Decoração temática.","Colecionável."]
+    },
+    {
+        "id": 30,
+        "nome": "Quadro impressionista",
+        "categoria": "Decoração",
+        "descricao": "Pintura impressionista do século XIX, óleo sobre tela, ideal para colecionadores de arte clássica.",
+        "preco": 10000.00,
+        "estado": ["Ótimo estado","Tela e pintura preservadas","Assinatura do artista visível"],
+        "img": ["https://example.com/quadro-1.jpg","https://example.com/quadro-2.jpg","https://example.com/quadro-3.jpg"],
+        "funcionalidades": ["Decoração artística.","Colecionável valioso.","Estudo de técnicas impressionistas."]
     }
 ]

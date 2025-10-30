@@ -15,7 +15,7 @@ export default async function prod() {
                             key={produto.id}
                             id={produto.id}
                             nome={produto.nome}
-                            img={produto.img}
+                            img={produto.img[0]}
                             preco={produto.preco}
                         />
                     ))}
