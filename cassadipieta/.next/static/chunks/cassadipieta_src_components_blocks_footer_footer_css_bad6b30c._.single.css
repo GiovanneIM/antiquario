@@ -1,0 +1,24 @@
+/* [project]/cassadipieta/src/components/blocks/footer/footer.css [app-client] (css) */
+footer {
+  color: #fff;
+  background-color: #212529;
+}
+
+footer a {
+  color: #bbb7b7 !important;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #c43c3c !important;
+}
+
+footer svg {
+  fill: #fff;
+}
+
+footer svg :hover {
+  fill: #c43c3c;
+}
+
+/*# sourceMappingURL=cassadipieta_src_components_blocks_footer_footer_css_bad6b30c._.single.css.map*/

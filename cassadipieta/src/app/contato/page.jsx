@@ -1,231 +1,135 @@
-import "./contato.css"
-import Image from "next/image";
+'use client'
+
+import { useState } from "react";
 
 export default function Home() {
-    return (
-        <>
-            <div className="container py-5 d-flex flex-column justify-content-center align-items-center">
-                {/* PERGUNTAS FREQUENTES */}
-                <div className="px-3 col-12 col-lg-8">
-                    <h4 className="mb-5 text-center">Perguntas Frequentes</h4>
+  const [form, setForm] = useState({ nome: "", telefone: "", email: "", mensagem: "" });
+  const [enviado, setEnviado] = useState(false);
 
-                    <div className="mt-2 px-3">
-                        <div className="accordion accordion-flush" id="accordionFlushExample" >
-                            <div className="accordion-item">
-                                <h2 className="accordion-header border border-secondary">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne"
-                                        aria-expanded="false"
-                                        aria-controls="flush-collapseOne"
-                                    >
-                                        Quem pode retirar o pedido na loja?
-                                    </button>
-                                </h2>
-                                <div
-                                    id="flush-collapseOne"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
-                                    <div className="accordion-body">
-                                        A retirada só pode ser realizada pela pessoa que você indicou no
-                                        ato da compra com a apresentação de um documento com foto. Caso
-                                        uma outra pessoa tente fazer este procedimento, é necessário
-                                        enviar um e-mail com autorização para credito@sportshop.com.br,
-                                        com os seguintes dados: Nome completo (responsável para retirada),
-                                        CPF e grau de parentesco.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo"
-                                        aria-expanded="false"
-                                        aria-controls="flush-collapseTwo"
-                                    >
-                                        Como funciona Retirada Loja?
-                                    </button>
-                                </h2>
-                                <div
-                                    id="flush-collapseTwo"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
-                                    <div className="accordion-body">
-                                        A retirada loja é uma maneira de você comprar online ou pelo nosso
-                                        televendas e retirar o seu produto em alguma loja física da
-                                        SportShop de sua preferência e mais perto de você. Sendo uma opção
-                                        mais rápida e sem custos de frete.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header border border-secondary">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree"
-                                        aria-expanded="false"
-                                        aria-controls="flush-collapseThree"
-                                    >
-                                        Em quais situações perdemos a garantia?
-                                    </button>
-                                </h2>
-                                <div
-                                    id="flush-collapseThree"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFlushExample"
-                                >
-                                    <div className="accordion-body">
-                                        Todos os produtos SportShop são destinados exclusivamente ao uso
-                                        doméstico; o uso comercial pode resultar na perda da garantia.
-                                        Evite o uso de adaptadores nos produtos. Se houver
-                                        incompatibilidade com a tomada, recomendamos que busque a
-                                        assistência de um eletricista profissional. Por favor, evite a
-                                        utilização de transformador, pois o uso deste dispositivo pode
-                                        acarretar riscos para sua segurança, bem como comprometer o
-                                        funcionamento adequado do produto e a qualidade do mesmo.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  function handleChange(e) {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setEnviado(true);
+    setForm({ nome: "", telefone: "", email: "", mensagem: "" });
+  }
+
+  return (
+    <>
+      <div className="container py-5 d-flex flex-column justify-content-center align-items-center">
+        <div className="px-3 col-12 col-lg-8">
+          <h4 className="mb-5 text-center">Perguntas Frequentes</h4>
+
+          <div className="mt-2 px-3">
+            <div className="accordion accordion-flush" id="accordionFlushExample">
+              <div className="accordion-item border rounded mb-3">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                  >
+                    Quem pode retirar o pedido na loja?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div className="accordion-body">
+                    A retirada só pode ser realizada pela pessoa indicada na compra, mediante documento com foto. Caso outra pessoa vá retirar, envie autorização por e-mail.
+                  </div>
+                </div>
+              </div>
+
+              <div className="accordion-item border rounded mb-3">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                  >
+                    Como funciona Retirada Loja?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div className="accordion-body">
+                    Você compra online e retira na loja física, sem custo de frete.
+                  </div>
+                </div>
+              </div>
+
+              <div className="accordion-item border rounded mb-3">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                  >
+                    Em quais situações perdemos a garantia?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div className="accordion-body">
+                    O uso comercial, transformadores ou má adaptação elétrica podem resultar em perda de garantia.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr className="col-12 col-lg-10 my-5" />
+
+        <div className="col-12 col-lg-8 px-3">
+          <h4 className="mb-5 text-center">Entre em Contato</h4>
+
+          <div className="d-flex justify-content-center">
+            <form className="needs-validation col-12 bg-light p-4 rounded shadow-sm" onSubmit={handleSubmit}>
+              <div className="row g-3">
+                <div className="col-sm-6">
+                  <label htmlFor="nome" className="form-label">Nome completo</label>
+                  <input type="text" className="form-control border-dark" id="nome" name="nome" value={form.nome} onChange={handleChange} required />
                 </div>
 
-                <hr className=" col-12 col-lg-10 my-5" />
-
-                {/* CONTATO */}
-                <div className="col-12 col-lg-8 px-3">
-                    <h4 className="mb-5 text-center">Entre em Contato</h4>
-
-                    <div className="d-flex justify-content-center">
-                        <form className="needs-validation col-12" noValidate="">
-                            <div className="row g-3">
-                                <div className="col-sm-6">
-
-                                    <label htmlFor="firstName" className="form-label">
-                                        Nome completo
-                                    </label>
-                                    <input
-                                        type="text"
-                                        className="form-control"
-                                        id="firstName"
-                                        placeholder="Nome"
-                                        defaultValue=""
-                                        required=""
-                                        style={{ border: "1px solid black" }}
-                                    />
-                                    <div className="invalid-feedback">
-                                        Valid first name is required.
-                                    </div>
-                                </div>
-
-                                <div className="col-sm-6">
-
-                                    <label htmlFor="firstName" className="form-label">
-                                        Telefone
-                                    </label>
-                                    <input
-                                        type="text"
-                                        className="form-control"
-                                        id="firstName"
-                                        placeholder="Telefone"
-                                        defaultValue=""
-                                        required=""
-                                        style={{ border: "1px solid black" }}
-                                    />
-                                    <div className="invalid-feedback">
-                                        Valid first name is required.
-                                    </div>
-                                </div>
-
-                                <div className="col-12">
-
-                                    <label htmlFor="email" className="form-label">
-                                        E-mail
-                                    </label>
-                                    <input
-                                        type="email"
-                                        className="form-control"
-                                        id="email"
-                                        placeholder="E-mail"
-                                        style={{ border: "1px solid black" }}
-                                    />
-                                    <div className="invalid-feedback">
-                                        Please enter a valid email address for shipping updates.
-                                    </div>
-                                </div>
-
-                                <label
-                                    htmlFor="comments"
-                                    className="form-label"
-                                    style={{ marginBottom: 0 }}
-                                >
-                                    Assunto
-                                </label>
-                                <div className="input-group">
-                                    <textarea
-                                        className="form-control"
-                                        aria-label="With textarea"
-                                        style={{ height: "15vh", border: "1px solid black" }}
-                                        placeholder="Estou entrando em contato para..."
-                                    />
-                                </div>
-                            </div>
-                            <hr className="my-4" />
-                            <button
-                                className=" btn btn-primary btn-md"
-                                type="button"
-                                style={{ width: 150 }}
-                                data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"
-                            >
-                                Enviar
-                            </button>
-                            {/* Modal */}
-                            <div
-                                className="modal fade"
-                                id="exampleModal"
-                                tabIndex={-1}
-                                aria-labelledby="exampleModalLabel"
-                                aria-hidden="true"
-                            >
-                                <div className="modal-dialog">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h1 className="modal-title fs-5" id="exampleModalLabel">
-                                                Recebemos sua Mensagem!
-                                            </h1>
-                                            <button
-                                                type="button"
-                                                className="btn-close"
-                                                data-bs-dismiss="modal"
-                                                aria-label="Close"
-                                            />
-                                        </div>
-                                        <div className="modal-body">
-                                            Que legal que você entrou em contato com a gente, o seu
-                                            feedback é muito importante para a Pinguim Shop. Agradecemos
-                                            a sua mensagem e vamos analisá-la com carinho.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                <div className="col-sm-6">
+                  <label htmlFor="telefone" className="form-label">Telefone</label>
+                  <input type="text" className="form-control border-dark" id="telefone" name="telefone" value={form.telefone} onChange={handleChange} required />
                 </div>
 
-                <hr className=" col-12 col-lg-10 my-5" />
+                <div className="col-12">
+                  <label htmlFor="email" className="form-label">E-mail</label>
+                  <input type="email" className="form-control border-dark" id="email" name="email" value={form.email} onChange={handleChange} required />
+                </div>
 
-                {/* Sobre nós */}
-                <div className="col-12 col-lg-10" >
+                <div className="col-12">
+                  <label htmlFor="mensagem" className="form-label">Assunto</label>
+                  <textarea className="form-control border-dark" id="mensagem" name="mensagem" value={form.mensagem} onChange={handleChange} style={{ height: "15vh" }} />
+                </div>
+              </div>
+
+              <hr className="my-4" />
+
+              <button className="btn btn-primary" type="submit" style={{ width: 150 }}>
+                Enviar
+              </button>
+
+              {enviado && (
+                <div className="alert alert-success mt-3" role="alert">
+                  Mensagem enviada com sucesso! Entraremos em contato em breve.
+                </div>
+              )}
+            </form>
+          </div>
+        </div>
+
+        <hr className="col-12 col-lg-10 my-5" />
+
+        <section className="col-12 col-lg-10 py-5">
+          <div className="row featurette">
+            <div className="col-12 col-lg-10" >
                     <div className="row featurette py-5">
 
                         <div className="col-12 col-md-7">
@@ -267,9 +171,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div >
-            </div >
-
-
-        </>
-    );
+          </div>
+        </section>
+      </div>
+    </>
+  );
 }

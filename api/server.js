@@ -1,23 +1,31 @@
+// CONFIGURAÇÃO DO SERVIDOR
+
 const express = require('express');
 const server = express();
 const port = 4000;
-const fs = require('fs').promises;
-const logger = require('./middlewares/logger');
 
-server.use(express.json());
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// MÓDULOS
+
+const fs = require('fs').promises;
+
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+// MIDDLEWARES
+
+// Logger - Imprime as requisições no console
+const logger = require('./middlewares/logger');
 server.use(logger);
 
+// Express.json - Permite receber e ler os JSON's no Header das requisições
+server.use(express.json());
 
-server.options('/', (req, res) => {
-    res.header('Allow', 'GET, OPTIONS');
-    res.status(204).send('ERRO ao tentar abrir a página inicial');
-});
-
+// Cors - Permite acessar a API a partir de outra porta
 const cors = require("cors");
 server.use(cors({
     origin: ["http://localhost:3000", "http://127.0.0.1:3000"], // endereço do front-end
-    credentials: true // Para receber cookies
 }));
+
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 // ROTAS
 
@@ -69,8 +77,10 @@ server.get('/produtos/:id', (req, res) => {
         });
 });
 
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 // OPTIONS
+
 server.options('/produtos', (req, res) => {
     res.header('Allow', 'GET, OPTIONS');
 });
@@ -79,7 +89,7 @@ server.options('/produtos/:id', (req, res) => {
     res.header('Allow', 'GET, OPTIONS');
 });
 
-
+// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 //Iniciando a API
 server.listen(port, () => {

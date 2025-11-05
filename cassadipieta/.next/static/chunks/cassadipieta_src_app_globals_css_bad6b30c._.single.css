@@ -1,0 +1,84 @@
+/* [project]/cassadipieta/src/app/globals.css [app-client] (css) */
+:root {
+  --background: #fff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html, body {
+  background-color: #fafbfc;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5 !important;
+  padding: 0 !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --lightningcss-light: ;
+    --lightningcss-dark: initial;
+    color-scheme: dark;
+  }
+}
+
+.cassadipieta {
+  color: red;
+}
+
+.container-carrossel {
+  width: 100%;
+}
+
+.carousel-item {
+  transition-duration: 1s !important;
+}
+
+.divisoria {
+  background-color: #0a0a0a;
+  height: 1rem;
+}
+
+txt-branco {
+  color: #fff;
+}
+
+.bg-vermelho {
+  background-color: #c43c3c !important;
+}
+
+.btn-vermelho {
+  color: #fff !important;
+  background-color: #c43c3c !important;
+}
+
+.btn-vermelho:hover {
+  background-color: rgba(196, 60, 60, .553) !important;
+}
+
+/*# sourceMappingURL=cassadipieta_src_app_globals_css_bad6b30c._.single.css.map*/

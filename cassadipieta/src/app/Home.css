@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cardo:wght@400;700&display=swap');
+
+:root {
+  --fonte-titulo: 'Cinzel', serif;
+  --fonte-texto: 'Cardo', serif;
+}
+
+body {
+  font-family: var(--fonte-texto);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fonte-titulo);
+}
+
+.overlay-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+/* Camada de blur */
+.overlay-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit; /* usa a imagem do card */
+  filter: blur(2px); /* intensidade do blur */
+  transform: scale(1.1); /* evita bordas duras após o blur */
+}
+
+/* Conteúdo do card acima do blur */
+.overlay-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Opcional: overlay escuro suave */
+.overlay-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  z-index: 1;
+}
+
+
+.card-cover {
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.img-completa {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

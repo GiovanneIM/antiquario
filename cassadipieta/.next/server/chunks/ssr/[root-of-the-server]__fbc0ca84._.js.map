@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/antiquario/cassadipieta/src/app/mostruario/page.jsx"],"sourcesContent":["<div className=\"container my-5\">\n  <div className=\"row g-4 justify-content-center\">\n    {produtos.map(produto => (\n      <Card\n        key={produto.id}\n        id={produto.id}\n        nome={produto.nome}\n        img={produto.img[0]}\n        preco={produto.preco}\n      />\n    ))}\n  </div>\n</div>\n"],"names":[],"mappings":";AAAA,QAAC;IAAI,WAAU;cACb,cAAA,QAAC;QAAI,WAAU;kBACZ,SAAS,GAAG,CAAC,CAAA,wBACZ,QAAC;gBAEC,IAAI,QAAQ,EAAE;gBACd,MAAM,QAAQ,IAAI;gBAClB,KAAK,QAAQ,GAAG,CAAC,EAAE;gBACnB,OAAO,QAAQ,KAAK;eAJf,QAAQ,EAAE","debugId":null}}]
+}

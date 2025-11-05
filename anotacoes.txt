@@ -1,14 +1,14 @@
-PAGINAS:
-Inicial
-Mostruário
-Produto (visualização)
-Contato + sobre nós
+PAGINAS
+• Inicial
+-- • Mostruário
+• Produto (visualização)
+• Compra
+-- • FAQ + Contato + sobre nós
+• Login
+• Cadastro
 
-
-COMPONENTS:
-Navbar
-Footer
-Card
-
-
-ROTAS API:
+COMPONENTS
+• Header
+• Footer
+-- • Card
+• Modal
