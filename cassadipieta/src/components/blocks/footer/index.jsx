@@ -8,7 +8,7 @@ export default function Footer() {
 
                     <div className="col-6 col-md-2 mb-3">
 
-                        <h5>Section</h5>
+                        <h5>Link</h5>
                         <ul className="nav flex-column">
 
                             <li className="nav-item mb-2">
@@ -18,22 +18,22 @@ export default function Footer() {
                             </li>
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    Features
+                                    Mostruário
                                 </a>
                             </li>
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    Pricing
+                                    Carrinho
                                 </a>
                             </li>
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    FAQs
+                                    Contato
                                 </a>
                             </li>
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    About
+                                    Sobre
                                 </a>
                             </li>
                         </ul>
@@ -41,12 +41,12 @@ export default function Footer() {
 
                     <div className="col-6 col-md-2 mb-3">
 
-                        <h5>Section</h5>
+                        <h5>Suporte</h5>
                         <ul className="nav flex-column">
 
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    Home
+                                    Ajuda
                                 </a>
                             </li>
                             <li className="nav-item mb-2">
@@ -66,7 +66,7 @@ export default function Footer() {
                             </li>
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    About
+                                    Sobre
                                 </a>
                             </li>
                         </ul>
@@ -74,32 +74,17 @@ export default function Footer() {
 
                     <div className="col-6 col-md-2 mb-3">
 
-                        <h5>Section</h5>
+                        <h5>Nos contate</h5>
                         <ul className="nav flex-column">
 
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    Home
+                                    +55 (11) 99999-9999
                                 </a>
                             </li>
                             <li className="nav-item mb-2">
                                 <a href="#" className="nav-link p-0">
-                                    Features
-                                </a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0">
-                                    Pricing
-                                </a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0">
-                                    FAQs
-                                </a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="#" className="nav-link p-0">
-                                    About
+                                    Contato
                                 </a>
                             </li>
                         </ul>
