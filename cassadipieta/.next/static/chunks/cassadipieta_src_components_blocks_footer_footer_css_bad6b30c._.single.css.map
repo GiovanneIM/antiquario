@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/cassadipieta/src/components/blocks/footer/footer.css"],"sourcesContent":["footer{\n    background-color: #212529;\n    /* background-color: #333333; */\n    color: white;\n}\n\nfooter a {\n    color: rgb(187, 183, 183) !important;\n}\n\nfooter a:hover {\n    color: #c43c3c !important;\n    text-decoration: underline;\n}\n\nfooter svg {\n    fill: white;\n}\nfooter svg :hover {\n    fill: #c43c3c;\n}"],"names":[],"mappings":"AAAA;;;;;AAMA;;;;AAIA;;;;;AAKA;;;;AAGA"}}]
-}

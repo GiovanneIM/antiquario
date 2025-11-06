@@ -27,34 +27,6 @@ export default function Produto() {
         if (!isNaN(Number(id))) carregarProduto();
     }, [id]);
 
-    // Função para adicionar produto ao carrinho
-    const adicionarAoCarrinho = () => {
-        const carrinhoAtual = JSON.parse(localStorage.getItem("carrinho")) || [];
-
-        // Verifica se o produto já está no carrinho
-        const produtoExistente = carrinhoAtual.find((p) => p.id === produto.id);
-
-        if (produtoExistente) {
-            produtoExistente.quantidade += 1;
-        } else {
-            carrinhoAtual.push({
-                id: produto.id,
-                nome: produto.nome,
-                descricao: produto.descricao,
-                preco: `R$ ${produto.preco.toFixed(2).replace('.', ',')}`,
-                img: produto.img[0],
-                quantidade: 1
-            });
-        }
-
-        localStorage.setItem("carrinho", JSON.stringify(carrinhoAtual));
-
-        // Feedback e redirecionamento
-        alert("Produto adicionado ao carrinho!");
-        // Opcional: redirecionar para o carrinho
-        // router.push('/carrinho');
-    };
-
     return (
         <>
             {produto &&
@@ -117,7 +89,7 @@ export default function Produto() {
                             {/* Botão de adicionar ao carrinho */}
                             <button
                                 className="btn btn-vermelho btn-lg mb-3 me-2 d-flex justify-content-center align-items-center gap-2"
-                                onClick={adicionarAoCarrinho}
+                                onClick={(e) => { window.location.href = `/comprar/${id}` }}
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-bag" viewBox="0 0 16 16">
                                     <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
