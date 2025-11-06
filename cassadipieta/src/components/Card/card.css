@@ -39,7 +39,7 @@
   object-fit: contain; /* mantém proporção */
 }
 
-.card-prod:hover .card-prod-img img {
+.card-prod:hover .card-prod-img {
   filter: brightness(90%);
   transform: scale(1.06);
 }

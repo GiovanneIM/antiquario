@@ -52,28 +52,24 @@ server.get('/produtos', (req, res) => {
 
 // Rota para obter um produto pelo ID
 server.get('/produtos/:id', (req, res) => {
-    const idProduto = parseInt(req.params.id);
+    const idProduto = Number(parseInt(req.params.id));
 
     fs.readFile('./dados/produtos.json', 'utf8')
         .then(data => {
             const produtos = JSON.parse(data);
-            const produtoEncontrado = produtos.find(function (produto) {
-                return produto.id == idProduto;
-            })
+            const produtoEncontrado = produtos.find( (p) => p.id === idProduto )
 
             if (!produtoEncontrado) {
-                console.log(`Tarefa com o ${idProduto} não encontrada.`);
                 res.status(400).json({
                     sucesso: false,
-                    erro: `Tarefa com o ${idProduto} não encontrada.`
+                    erro: `Produto com o ${idProduto} não encontrada.`
                 });
             } else {
-                res.status(201).json({ 
+                res.status(200).json({ 
                     sucesso: true,
                     produto: produtoEncontrado 
                 });
             }
-
         });
 });
 

@@ -40,14 +40,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules
 ;
 function Produto() {
     const { id } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useParams"])();
-    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const [produto, setProduto] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [imgPrincipal, setImgPrincipal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('https://placehold.co/400');
     // Consultando a API para obter o produto
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         async function carregarProduto() {
             try {
-                const res = await fetch(`http://localhost:4000/produtos/${Number(id)}`);
+                const res = await fetch(`http://localhost:4000/produtos/${id}`);
                 const data = await res.json();
                 setProduto(data.produto);
                 setImgPrincipal(data.produto.img[0]);
@@ -99,12 +98,12 @@ function Produto() {
                                     className: "img-completa"
                                 }, void 0, false, {
                                     fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                    lineNumber: 67,
+                                    lineNumber: 66,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 66,
+                                lineNumber: 65,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -122,23 +121,23 @@ function Produto() {
                                             className: "img-completa"
                                         }, void 0, false, {
                                             fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                            lineNumber: 83,
+                                            lineNumber: 82,
                                             columnNumber: 41
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 76,
                                         columnNumber: 37
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 75,
+                                lineNumber: 74,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                        lineNumber: 64,
+                        lineNumber: 63,
                         columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -149,7 +148,7 @@ function Produto() {
                                 children: produto.nome
                             }, void 0, false, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 91,
+                                lineNumber: 90,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -157,7 +156,7 @@ function Produto() {
                                 children: produto.categoria
                             }, void 0, false, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 92,
+                                lineNumber: 91,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -171,7 +170,7 @@ function Produto() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 95,
+                                        lineNumber: 94,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -180,18 +179,18 @@ function Produto() {
                                             children: produto.preco_wdisc.toFixed(2).replace('.', ',')
                                         }, void 0, false, {
                                             fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                            lineNumber: 99,
+                                            lineNumber: 98,
                                             columnNumber: 61
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 97,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 94,
+                                lineNumber: 93,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -202,12 +201,12 @@ function Produto() {
                                             children: "Condição:"
                                         }, void 0, false, {
                                             fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                            lineNumber: 104,
+                                            lineNumber: 103,
                                             columnNumber: 38
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 104,
+                                        lineNumber: 103,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -215,18 +214,18 @@ function Produto() {
                                                 children: est
                                             }, index, false, {
                                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                                lineNumber: 107,
+                                                lineNumber: 106,
                                                 columnNumber: 41
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 105,
+                                        lineNumber: 104,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 103,
+                                lineNumber: 102,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -237,12 +236,12 @@ function Produto() {
                                             children: "Descrição:"
                                         }, void 0, false, {
                                             fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                            lineNumber: 113,
+                                            lineNumber: 112,
                                             columnNumber: 38
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 113,
+                                        lineNumber: 112,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -252,13 +251,13 @@ function Produto() {
                                         children: produto.descricao
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 114,
+                                        lineNumber: 113,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 112,
+                                lineNumber: 111,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -276,19 +275,19 @@ function Produto() {
                                             d: "M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
                                         }, void 0, false, {
                                             fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                            lineNumber: 123,
+                                            lineNumber: 122,
                                             columnNumber: 37
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 122,
+                                        lineNumber: 121,
                                         columnNumber: 33
                                     }, this),
                                     "Comprar"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 118,
+                                lineNumber: 117,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -298,7 +297,7 @@ function Produto() {
                                         children: "Utilidades:"
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 129,
+                                        lineNumber: 128,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$cassadipieta$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -306,35 +305,35 @@ function Produto() {
                                                 children: func
                                             }, index, false, {
                                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                                lineNumber: 132,
+                                                lineNumber: 131,
                                                 columnNumber: 41
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                        lineNumber: 130,
+                                        lineNumber: 129,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                                lineNumber: 128,
+                                lineNumber: 127,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                        lineNumber: 90,
+                        lineNumber: 89,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-                lineNumber: 62,
+                lineNumber: 61,
                 columnNumber: 21
             }, this)
         }, void 0, false, {
             fileName: "[project]/cassadipieta/src/app/produto/[id]/page.jsx",
-            lineNumber: 61,
+            lineNumber: 60,
             columnNumber: 17
         }, this)
     }, void 0, false);
