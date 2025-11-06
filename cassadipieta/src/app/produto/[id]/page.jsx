@@ -1,12 +1,11 @@
 'use client'
 
 import { useState, useEffect } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import "./produto.css"
 
 export default function Produto() {
     const { id } = useParams();
-    const router = useRouter();
     const [produto, setProduto] = useState(null);
     const [imgPrincipal, setImgPrincipal] = useState('https://placehold.co/400');
 
@@ -14,7 +13,7 @@ export default function Produto() {
     useEffect(() => {
         async function carregarProduto() {
             try {
-                const res = await fetch(`http://localhost:4000/produtos/${Number(id)}`);
+                const res = await fetch(`http://localhost:4000/produtos/${id}`);
                 const data = await res.json();
 
                 setProduto(data.produto);
